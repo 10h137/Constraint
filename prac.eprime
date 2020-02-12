@@ -1,0 +1,46 @@
+language ESSENCE' 1.0
+
+given cards : matrix indexed by [ int(1..n) ] of int(0..51)
+where alldifferent(cards)
+
+find M : matrix indexed by [int(1..n), int(1..n)] of int(-2..51)
+
+such that 
+
+$ shifts all card 
+forAll col : int(1..n) .
+    M[1,col] = cards[col],
+
+forAll row : int(1..n) .
+    $ ensures all cards are different 
+    alldifferent_except(M[row,..], -1) /\
+    $ ensures one additional zero is added to each step 
+    gcc(M[row,..], [-1], [row-1]) /\
+    $ shifts all -1's to the end of the matrix
+    forAll col : int(1..n-1) .
+        (M[row,col] = -1) -> M[row,col+1] = -1,
+
+forAll row : int(1..n-1) .
+    exists col : int (1..n-1) .
+        (exists dest : int (col-1, col-3) .
+            (
+                $ checks for shifts to the left
+                M[row+1,dest] != -1 /\ M[row+1,dest] = M[row,col] 
+                /\
+                $ check all numbers before the moved pile remain in same position
+                (forAll before : int (1..col-1) .
+                    (before != dest) -> M[row+1,before] = M[row,before])
+                /\
+                (   $ checks if same card in different suit
+                    (M[row,col] - M[row,dest]) % 13 = 0  
+                    \/
+                    $ checks if cards in same suit 
+                    (M[row,col] / 13) = (M[row,dest] / 13)
+                )
+            )
+
+        /\
+        $ checks that all cards after moved cartd have been shifted to the left by one
+        forAll after : int (col..n-1) .
+            (M[row+1,after] != -1) -> M[row+1,after] = M[row,after+1]
+        )

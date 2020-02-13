@@ -19,22 +19,22 @@ forAll row : int(1..n) .
     forAll col : int(1..n-1) .
         ( M[row,col] = -1 ) -> ( M[row,col+1] = -1 ),
 
-$ for every row, there exist a source column with a valid move destination,
-$ either 1 or three indexes to the left of source
+$ for every row, there exists a source column with a valid move destination,
+$ either 1 or three indexes to the left of the source
 forAll row : int(1..n-1) .
     exists source : int (1..n-1) .
         exists dest : int (source-1, source-3) .
             $ checks for source card in the destination index
             ( M[row+1,dest] != -1 ) /\ ( M[row+1,dest] = M[row,source] ) 
             /\   
-            (   $ checks if same cards in different suits
+            (   $ checks if same card in different suit
                 ( M[row,source] - M[row,dest] ) % 13 = 0  
                 \/
                 $ checks if cards in same suit 
                 ( M[row,source] / 13 ) = ( M[row,dest] / 13) 
             ) 
             /\
-            $ check all numbers before the source index remain in same position,
+            $ checks all numbers before the source index remain in same position,
             $ excluding the destination index
             (forAll before : int (1..source-1) .
                 ( before != dest ) -> ( M[row+1,before] = M[row,before] ))
@@ -43,4 +43,3 @@ forAll row : int(1..n-1) .
             $ excluding -1's
             (forAll after : int (source..n-1) .
                 ( M[row+1,after] != -1 ) -> ( M[row+1,after] = M[row,after+1] ))
-             

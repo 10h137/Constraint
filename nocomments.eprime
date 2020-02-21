@@ -16,7 +16,7 @@ forAll row : int(1..n) .
         ( M[row,col] = -1 ) -> ( M[row,col+1] = -1 ),
 
 forAll row : int(1..n-1) .
-    exists source : int (1..n-1) .
+    exists source : int (1..n) .
         exists dest : int (source-1, source-3) .
             ( M[row+1,dest] != -1 ) /\ ( M[row+1,dest] = M[row,source] ) 
             /\   

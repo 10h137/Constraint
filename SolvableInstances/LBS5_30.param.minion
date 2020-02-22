@@ -1,0 +1,165 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 12
+# CSE_active_eliminated_expressions = 27
+# CSE_active_total_size = 36
+**VARIABLES**
+DISCRETE M_00002_00001 #
+{7..46}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00001, [7,7,17,17,23,23,46,46])
+**VARIABLES**
+DISCRETE M_00002_00002 #
+{4..17}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00002, [4,4,7,7,17,17])
+**VARIABLES**
+DISCRETE M_00002_00003 #
+{17..23}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00003, [17,17,23,23])
+**VARIABLES**
+DISCRETE M_00002_00004 #
+{4..23}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00004, [4,4,7,7,17,17,23,23])
+**VARIABLES**
+DISCRETE M_00003_00001 #
+{4..46}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00001, [4,4,7,7,17,17,23,23,46,46])
+**VARIABLES**
+DISCRETE M_00003_00002 #
+{4..23}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00002, [4,4,7,7,17,17,23,23])
+**VARIABLES**
+DISCRETE M_00003_00003 #
+{4..23}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00003, [4,4,7,7,17,17,23,23])
+**VARIABLES**
+DISCRETE M_00004_00001 #
+{4..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00001, [4,4,7,7,17,17,23,23,46,46])
+**VARIABLES**
+DISCRETE M_00005_00001 #
+{4..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00001, [4,4,7,7,17,17,23,23,46,46])
+**VARIABLES**
+DISCRETE aux13 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00001/13)
+{0..3}
+**CONSTRAINTS**
+w-inintervalset(aux13, [0,1,3,3])
+**VARIABLES**
+BOOL aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00004/13)
+BOOL aux16 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00002/13)
+BOOL aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00002/13)
+BOOL aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00003=M_00003_00002)
+BOOL aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00003=M_00003_00003)
+BOOL aux20 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00001=M_00004_00001)
+BOOL aux22 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00001=M_00003_00001)
+BOOL aux23 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00004=M_00003_00003)
+BOOL aux24 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00002=M_00003_00002)
+BOOL aux25 #
+DISCRETE aux26 #( - M_00002_00004 + -1)
+{-24..-5}
+**CONSTRAINTS**
+w-inintervalset(aux26, [-24,-24,-18,-18,-8,-8,-5,-5])
+**VARIABLES**
+DISCRETE aux27 #( - M_00002_00001 + M_00002_00002)
+{-42..10}
+**CONSTRAINTS**
+w-inintervalset(aux27, [-42,-42,-39,-39,-29,-29,-19,-19,-16,-16,-13,-13,-10,-10,-6,-6,-3,-3,0,0,10,10])
+**VARIABLES**
+DISCRETE aux28 #( - M_00002_00002 + M_00002_00003)
+{6..13}
+**CONSTRAINTS**
+w-inintervalset(aux28, [6,6,10,10,13,13])
+**VARIABLES**
+DISCRETE aux29 #( - M_00002_00001 + M_00002_00004)
+{-23..-3}
+**CONSTRAINTS**
+w-inintervalset(aux29, [-23,-23,-19,-19,-16,-16,-13,-13,-10,-10,-6,-6,-3,-3])
+**VARIABLES**
+DISCRETE aux30 #( - M_00002_00003 + M_00002_00004)
+{-19..6}
+**CONSTRAINTS**
+w-inintervalset(aux30, [-19,-19,-16,-16,-13,-13,-10,-10,-6,-6,0,0,6,6])
+**VARIABLES**
+DISCRETE aux31 #( - M_00003_00001 + M_00003_00002)
+{-42..13}
+**CONSTRAINTS**
+w-inintervalset(aux31, [-42,-42,-39,-39,-29,-29,-23,-23,-19,-19,-16,-16,-13,-13,-10,-10,-6,-6,-3,-3,0,0,3,3,6,6,10,10,13,13])
+**VARIABLES**
+DISCRETE aux32 #( - M_00003_00002 + M_00003_00003)
+{-13..13}
+**CONSTRAINTS**
+w-inintervalset(aux32, [-13,-13,-10,-10,-6,-6,-3,-3,0,0,3,3,6,6,10,10,13,13])
+**VARIABLES**
+DISCRETE aux33 #( - M_00003_00003 + -1)
+{-24..-5}
+**CONSTRAINTS**
+w-inintervalset(aux33, [-24,-24,-18,-18,-8,-8,-5,-5])
+**VARIABLES**
+DISCRETE aux34 #(M_00003_00003 - M_00004_00001)
+{-42..19}
+**CONSTRAINTS**
+w-inintervalset(aux34, [-42,-42,-39,-39,-29,-29,-23,-23,-19,-19,-16,-16,-13,-13,-10,-10,-6,-6,-3,-3,0,0,3,3,6,6,10,10,13,13,16,16,19,19])
+**VARIABLES**
+DISCRETE aux35 #( - M_00003_00003 + -1)
+{-24..-5}
+**CONSTRAINTS**
+w-inintervalset(aux35, [-24,-24,-18,-18,-8,-8,-5,-5])
+**VARIABLES**
+**VARIABLES**
+ALIAS cards[5]=[46, 7, 17, 23, 4]
+**SEARCH**
+PRINT[[M_00002_00001],[M_00002_00002],[M_00002_00003],[M_00002_00004],[M_00003_00001],[M_00003_00002],[M_00003_00003],[M_00004_00001],[M_00005_00001]]
+VARORDER STATIC [M_00002_00001, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00001, M_00003_00002, M_00003_00003, M_00004_00001, M_00005_00001]
+**CONSTRAINTS**
+div(M_00003_00003, 13, aux25)
+div(M_00002_00001, 13, aux13)
+div(M_00002_00004, 13, aux14)
+div(M_00002_00003, 13, 1)
+div(M_00002_00002, 13, aux16)
+div(M_00003_00002, 13, aux17)
+reify(gaceq(M_00002_00003,M_00003_00002), aux18)
+reify(gaceq(M_00002_00003,M_00003_00003), aux19)
+reify(gaceq(M_00003_00001,M_00004_00001), aux20)
+reify(gaceq(M_00002_00001,M_00003_00001), aux22)
+reify(gaceq(M_00002_00004,M_00003_00003), aux23)
+reify(gaceq(M_00002_00002,M_00003_00002), aux24)
+gccweak([M_00002_00001, M_00002_00002, M_00002_00003, M_00002_00004],[-1],[0])
+gccweak([M_00003_00001, M_00003_00002, M_00003_00003],[-1],[0])
+gccweak([M_00004_00001, M_00003_00003],[-1],[0])
+gccweak([M_00005_00001],[-1],[0])
+watched-or({watched-and({w-literal(M_00002_00001,7),w-literal(M_00002_00002,17),w-literal(M_00002_00003,23),w-literal(M_00002_00004,4)}),watched-and({w-literal(M_00002_00002,4),w-literal(M_00002_00001,46),w-literal(M_00002_00003,17),w-literal(M_00002_00004,23)}),watched-and({w-literal(M_00002_00002,7),w-literal(M_00002_00001,46),w-literal(M_00002_00003,23),w-literal(M_00002_00004,4)})})
+watched-or({watched-and({modulo(aux26,13,0),w-literal(aux22,1),w-literal(aux24,1),w-literal(aux19,1)}),watched-and({gaceq(M_00002_00002,M_00003_00001),w-literal(aux18,1),w-literal(aux23,1),watched-or({modulo(aux27,13,0),gaceq(aux13,aux16)})}),watched-and({w-literal(aux22,1),w-literal(aux18,1),w-literal(aux23,1),watched-or({modulo(aux28,13,0),w-literal(aux16,1)})}),watched-and({w-literal(aux24,1),w-literal(aux19,1),gaceq(M_00002_00004,M_00003_00001),watched-or({modulo(aux29,13,0),gaceq(aux13,aux14)})}),watched-and({w-literal(aux22,1),w-literal(aux24,1),w-literal(aux23,1),watched-or({modulo(aux30,13,0),w-literal(aux14,1)})})})
+watched-or({watched-and({gaceq(M_00003_00002,M_00004_00001),watched-or({modulo(aux31,13,0),div(M_00003_00001, 13, aux17)})}),watched-and({w-literal(aux20,1),watched-or({modulo(aux32,13,0),div(M_00003_00003, 13, aux17)})}),watched-and({w-literal(aux20,1),gaceq(M_00003_00002,M_00003_00003),modulo(aux33,13,0)})})
+watched-or({watched-and({gaceq(M_00003_00003,M_00005_00001),watched-or({div(M_00004_00001, 13, aux25),modulo(aux34,13,0)})}),watched-and({modulo(aux35,13,0),gaceq(M_00004_00001,M_00005_00001)})})
+weightedsumleq([-1,1],[M_00002_00004,-1],aux26)
+weightedsumgeq([-1,1],[M_00002_00004,-1],aux26)
+weightedsumleq([-1,1],[M_00002_00001,M_00002_00002],aux27)
+weightedsumgeq([-1,1],[M_00002_00001,M_00002_00002],aux27)
+weightedsumleq([-1,1],[M_00002_00002,M_00002_00003],aux28)
+weightedsumgeq([-1,1],[M_00002_00002,M_00002_00003],aux28)
+weightedsumleq([-1,1],[M_00002_00001,M_00002_00004],aux29)
+weightedsumgeq([-1,1],[M_00002_00001,M_00002_00004],aux29)
+weightedsumleq([-1,1],[M_00002_00003,M_00002_00004],aux30)
+weightedsumgeq([-1,1],[M_00002_00003,M_00002_00004],aux30)
+weightedsumleq([-1,1],[M_00003_00001,M_00003_00002],aux31)
+weightedsumgeq([-1,1],[M_00003_00001,M_00003_00002],aux31)
+weightedsumleq([-1,1],[M_00003_00002,M_00003_00003],aux32)
+weightedsumgeq([-1,1],[M_00003_00002,M_00003_00003],aux32)
+weightedsumleq([-1,1],[M_00003_00003,-1],aux33)
+weightedsumgeq([-1,1],[M_00003_00003,-1],aux33)
+weightedsumleq([1,-1],[M_00003_00003,M_00004_00001],aux34)
+weightedsumgeq([1,-1],[M_00003_00003,M_00004_00001],aux34)
+weightedsumleq([-1,1],[M_00003_00003,-1],aux35)
+weightedsumgeq([-1,1],[M_00003_00003,-1],aux35)
+**EOF**

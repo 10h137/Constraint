@@ -9,9 +9,8 @@ find M : matrix indexed by [int(1..n), int(1..n)] of int(-1,cards)
 such that 
 
 $ fills first row with cards
-$ forAll col : int(1..n) .
-$     M[1,col] = cards[col],
-    (M[1]= cards)/\
+forAll col : int(1..n) .
+    M[1,col] = cards[col],
 
 forAll row : int(1..n) .
     $ ensures an additional -1 is added to each row 

@@ -27,5 +27,5 @@ solution_files = list(filter((lambda x: re.search(r'(_|[A-z0-9])*\.solution$', x
 print(str(len(solution_files)) + " Solutions generated")
 if(len(param_files) == len(solution_files)) :
     print("All solutions generated")
-elif (len(solution_files == 0)):
+elif (len(solution_files) == 0):
     print("No solutions generated")

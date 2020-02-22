@@ -9,8 +9,9 @@ find M : matrix indexed by [int(1..n), int(1..n)] of int(-1,cards)
 such that 
 
 $ fills first row with cards
-forAll col : int(1..n) .
-    M[1,col] = cards[col],
+$ forAll col : int(1..n) .
+$     M[1,col] = cards[col],
+    (M[1]= cards)/\
 
 forAll row : int(1..n) .
     $ ensures an additional -1 is added to each row 
@@ -25,13 +26,13 @@ forAll row : int(1..n-1) .
     exists source : int (1..n) .
         exists dest : int (source-1, source-3) .
             $ checks for source card in the destination index
-            ( M[row+1,dest] != -1 ) /\ ( M[row+1,dest] = M[row,source] ) 
+            ( M[row+1,dest] = M[row,source] ) 
             /\   
             (   $ checks if same card in different suit
                 ( M[row,source] - M[row,dest] ) % 13 = 0  
                 \/
                 $ checks if cards in same suit 
-                ( M[row,source] / 13 ) = ( M[row,dest] / 13) 
+                ( M[row,source] / 13 ) = ( M[row,dest] / 13 ) 
             ) 
             /\
             $ checks all numbers before the source index remain in same position,
@@ -40,6 +41,5 @@ forAll row : int(1..n-1) .
                 ( before != dest ) -> ( M[row+1,before] = M[row,before] ))
             /\ 
             $ checks that all cards after the source index have been shifted to the left by one,
-            $ excluding -1's
-            (forAll after : int (source..n-1) .
-                ( M[row+1,after] != -1 ) -> ( M[row+1,after] = M[row,after+1] ))
+            (forAll after : int (source+1..n) .
+                ( M[row+1,after-1] = M[row,after] ))

@@ -18,15 +18,16 @@ forAll row : int(1..n) .
 forAll row : int(1..n-1) .
     exists source : int (1..n) .
         exists dest : int (source-1, source-3) .
-            ( M[row+1,dest] != -1 ) /\ ( M[row+1,dest] = M[row,source] ) 
+            ( M[row+1,dest] = M[row,source] ) 
             /\   
-                (( M[row,source] - M[row,dest] ) % 13 = 0  
+            (
+                ( M[row,source] - M[row,dest] ) % 13 = 0  
                 \/
-                ( M[row,source] / 13 ) = ( M[row,dest] / 13)) 
+                ( M[row,source] / 13 ) = ( M[row,dest] / 13 ) 
+            ) 
             /\
             (forAll before : int (1..source-1) .
                 ( before != dest ) -> ( M[row+1,before] = M[row,before] ))
             /\ 
-            (forAll after : int (source..n-1) .
-                ( M[row+1,after] != -1 ) -> ( M[row+1,after] = M[row,after+1] ))
-             
+            (forAll after : int (source+1..n) .
+                ( M[row+1,after-1] = M[row,after] ))

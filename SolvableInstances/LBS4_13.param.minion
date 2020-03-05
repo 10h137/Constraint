@@ -2,14 +2,226 @@ MINION 3
 # CSETopLevel_number = 0
 # CSETopLevel_eliminated_expressions = 0
 # CSETopLevel_total_size = 0
-# CSE_active_number = 0
-# CSE_active_eliminated_expressions = 0
-# CSE_active_total_size = 0
+# CSE_active_number = 16
+# CSE_active_eliminated_expressions = 34
+# CSE_active_total_size = 48
+**VARIABLES**
+DISCRETE M_00002_00001 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00001, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00002_00002 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00002, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00002_00003 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00003, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00002_00004 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00004, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00003_00001 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00001, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00003_00002 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00002, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00003_00003 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00003, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00003_00004 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00004, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00004_00001 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00001, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00004_00002 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00002, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00004_00003 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00003, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE M_00004_00004 #
+{-1..29}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00004, [-1,-1,3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE aux13 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00001/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux13, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00004/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux14, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux15 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00003/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux15, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux16 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00002/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux16, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00004/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux17, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00003/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux18, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00002/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux19, [-1,0,2,2])
+**VARIABLES**
+DISCRETE aux20 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00001/13)
+{-1..2}
+**CONSTRAINTS**
+w-inintervalset(aux20, [-1,0,2,2])
+**VARIABLES**
+BOOL aux21 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00001=M_00003_00001)
+BOOL aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00003=M_00003_00002)
+BOOL aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00002=M_00003_00002)
+BOOL aux24 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00002=M_00004_00002)
+BOOL aux25 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00001=M_00004_00001)
+BOOL aux26 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00003=M_00004_00002)
+BOOL aux27 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00004=M_00004_00003)
+BOOL aux28 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00004=M_00003_00003)
+BOOL aux29 #(M_00002_00001=-1)
+BOOL aux30 #(M_00002_00002=-1)
+BOOL aux31 #(M_00002_00003=-1)
+BOOL aux32 #(M_00003_00001=-1)
+BOOL aux33 #(M_00003_00002=-1)
+BOOL aux34 #(M_00003_00003=-1)
+BOOL aux35 #(M_00004_00001=-1)
+BOOL aux36 #(M_00004_00002=-1)
+BOOL aux37 #(M_00004_00003=-1)
+DISCRETE aux38 #( - M_00002_00001 + M_00002_00002)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux38, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux39 #( - M_00002_00002 + M_00002_00003)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux39, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux40 #( - M_00002_00001 + M_00002_00004)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux40, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux41 #( - M_00002_00003 + M_00002_00004)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux41, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux42 #( - M_00003_00001 + M_00003_00002)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux42, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux43 #( - M_00003_00002 + M_00003_00003)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux43, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux44 #( - M_00003_00001 + M_00003_00004)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux44, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
+**VARIABLES**
+DISCRETE aux45 #( - M_00003_00003 + M_00003_00004)
+{-30..30}
+**CONSTRAINTS**
+w-inintervalset(aux45, [-30,-30,-28,-28,-26,-26,-24,-24,-17,-17,-15,-15,-13,-13,-9,-9,-4,-4,-2,-2,0,0,2,2,4,4,9,9,13,13,15,15,17,17,24,24,26,26,28,28,30,30])
 **VARIABLES**
 **VARIABLES**
 ALIAS cards[4]=[12, 29, 27, 3]
 **SEARCH**
-PRINT[]
-VARORDER STATIC []
+PRINT[[M_00002_00001],[M_00002_00002],[M_00002_00003],[M_00002_00004],[M_00003_00001],[M_00003_00002],[M_00003_00003],[M_00003_00004],[M_00004_00001],[M_00004_00002],[M_00004_00003],[M_00004_00004]]
 **CONSTRAINTS**
-true()**EOF**
+reify(w-literal(M_00002_00001,-1), aux29)
+reify(w-literal(M_00002_00002,-1), aux30)
+reify(w-literal(M_00002_00003,-1), aux31)
+reify(w-literal(M_00003_00001,-1), aux32)
+reify(w-literal(M_00003_00002,-1), aux33)
+reify(w-literal(M_00003_00003,-1), aux34)
+reify(w-literal(M_00004_00001,-1), aux35)
+reify(w-literal(M_00004_00002,-1), aux36)
+reify(w-literal(M_00004_00003,-1), aux37)
+div(M_00002_00001, 13, aux13)
+div(M_00002_00004, 13, aux14)
+div(M_00002_00003, 13, aux15)
+div(M_00002_00002, 13, aux16)
+div(M_00003_00004, 13, aux17)
+div(M_00003_00003, 13, aux18)
+div(M_00003_00002, 13, aux19)
+div(M_00003_00001, 13, aux20)
+reify(gaceq(M_00002_00001,M_00003_00001), aux21)
+reify(gaceq(M_00002_00003,M_00003_00002), aux22)
+reify(gaceq(M_00002_00002,M_00003_00002), aux23)
+reify(gaceq(M_00003_00002,M_00004_00002), aux24)
+reify(gaceq(M_00003_00001,M_00004_00001), aux25)
+reify(gaceq(M_00003_00003,M_00004_00002), aux26)
+reify(gaceq(M_00003_00004,M_00004_00003), aux27)
+reify(gaceq(M_00002_00004,M_00003_00003), aux28)
+gccweak([M_00002_00001, M_00002_00002, M_00002_00003, M_00002_00004],[-1],[1])
+reifyimply(w-literal(M_00002_00002,-1), aux29)
+reifyimply(w-literal(M_00002_00003,-1), aux30)
+reifyimply(w-literal(M_00002_00004,-1), aux31)
+gccweak([M_00003_00001, M_00003_00002, M_00003_00003, M_00003_00004],[-1],[2])
+reifyimply(w-literal(M_00003_00002,-1), aux32)
+reifyimply(w-literal(M_00003_00003,-1), aux33)
+reifyimply(w-literal(M_00003_00004,-1), aux34)
+gccweak([M_00004_00001, M_00004_00002, M_00004_00003, M_00004_00004],[-1],[3])
+reifyimply(w-literal(M_00004_00002,-1), aux35)
+reifyimply(w-literal(M_00004_00003,-1), aux36)
+reifyimply(w-literal(M_00004_00004,-1), aux37)
+watched-or({watched-and({w-literal(M_00002_00001,3),w-literal(M_00002_00002,29),w-literal(M_00002_00003,27)}),watched-and({w-literal(M_00002_00001,12),w-literal(M_00002_00002,27),w-literal(M_00002_00003,3)})})
+watched-or({watched-and({gaceq(M_00002_00002,M_00003_00001),w-literal(aux22,1),w-literal(aux28,1),watched-or({modulo(aux38,13,0),gaceq(aux13,aux16)})}),watched-and({w-literal(aux21,1),w-literal(aux22,1),w-literal(aux28,1),watched-or({modulo(aux39,13,0),gaceq(aux16,aux15)})}),watched-and({w-literal(aux23,1),gaceq(M_00002_00003,M_00003_00003),gaceq(M_00002_00004,M_00003_00001),watched-or({modulo(aux40,13,0),gaceq(aux13,aux14)})}),watched-and({w-literal(aux21,1),w-literal(aux23,1),w-literal(aux28,1),watched-or({modulo(aux41,13,0),gaceq(aux15,aux14)})})})
+watched-or({watched-and({gaceq(M_00003_00002,M_00004_00001),w-literal(aux26,1),w-literal(aux27,1),watched-or({modulo(aux42,13,0),gaceq(aux20,aux19)})}),watched-and({w-literal(aux25,1),w-literal(aux26,1),w-literal(aux27,1),watched-or({modulo(aux43,13,0),gaceq(aux19,aux18)})}),watched-and({w-literal(aux24,1),gaceq(M_00003_00003,M_00004_00003),gaceq(M_00003_00004,M_00004_00001),watched-or({modulo(aux44,13,0),gaceq(aux20,aux17)})}),watched-and({w-literal(aux25,1),w-literal(aux24,1),w-literal(aux27,1),watched-or({modulo(aux45,13,0),gaceq(aux18,aux17)})})})
+weightedsumleq([-1,1],[M_00002_00001,M_00002_00002],aux38)
+weightedsumgeq([-1,1],[M_00002_00001,M_00002_00002],aux38)
+weightedsumleq([-1,1],[M_00002_00002,M_00002_00003],aux39)
+weightedsumgeq([-1,1],[M_00002_00002,M_00002_00003],aux39)
+weightedsumleq([-1,1],[M_00002_00001,M_00002_00004],aux40)
+weightedsumgeq([-1,1],[M_00002_00001,M_00002_00004],aux40)
+weightedsumleq([-1,1],[M_00002_00003,M_00002_00004],aux41)
+weightedsumgeq([-1,1],[M_00002_00003,M_00002_00004],aux41)
+weightedsumleq([-1,1],[M_00003_00001,M_00003_00002],aux42)
+weightedsumgeq([-1,1],[M_00003_00001,M_00003_00002],aux42)
+weightedsumleq([-1,1],[M_00003_00002,M_00003_00003],aux43)
+weightedsumgeq([-1,1],[M_00003_00002,M_00003_00003],aux43)
+weightedsumleq([-1,1],[M_00003_00001,M_00003_00004],aux44)
+weightedsumgeq([-1,1],[M_00003_00001,M_00003_00004],aux44)
+weightedsumleq([-1,1],[M_00003_00003,M_00003_00004],aux45)
+weightedsumgeq([-1,1],[M_00003_00003,M_00003_00004],aux45)
+**EOF**

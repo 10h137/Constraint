@@ -9,13 +9,13 @@ for (dirpath, dirnames, filenames) in walk(os.path.abspath(sys.argv[1])):
     files.extend(filenames)
     break
 
-files_to_delete = list(filter((lambda x: not re.search(r'(_|[A-z0-9])*\.param$', x)),files))
-for f in files_to_delete:
-    os.remove(os.path.join(sys.argv[1], f))
+# files_to_delete = list(filter((lambda x: not re.search(r'(_|[A-z0-9])*\.param$', x)),files))
+# for f in files_to_delete:
+#     os.remove(os.path.join(sys.argv[1], f))
 
 param_files = list(filter((lambda x: re.search(r'(_|[A-z0-9])*\.param$', x)),files))
 for i in param_files:
-    os.system("./" + sys.argv[2] + " " +  "prac.eprime " + os.path.abspath(sys.argv[1]) + "/" +  i + " -run-solver")
+    os.system("./" + sys.argv[2] + " " +  "prac.eprime " + os.path.abspath(sys.argv[1]) + "/" +  i + " -run-solver -timelimit 600000")
 
 
 solution_files = []

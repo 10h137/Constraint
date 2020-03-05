@@ -1,0 +1,1962 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 214
+# CSE_active_eliminated_expressions = 1256
+# CSE_active_total_size = 642
+**VARIABLES**
+DISCRETE M_00002_00004 #
+{18..31}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00004, [18,18,21,21,24,24,26,26,31,31])
+**VARIABLES**
+DISCRETE M_00002_00005 #
+{18..33}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00005, [18,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00002_00006 #
+{21..33}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00006, [21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00002_00007 #
+{21..24}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00007, [21,21,24,24])
+**VARIABLES**
+DISCRETE M_00002_00008 #
+{24..41}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00008, [24,24,26,26,31,31,33,33,41,41])
+**VARIABLES**
+DISCRETE M_00002_00009 #
+{41..46}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00009, [41,42,46,46])
+**VARIABLES**
+DISCRETE M_00002_00010 #
+{7..46}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00010, [7,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00002_00011 #
+{0..42}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00011, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42])
+**VARIABLES**
+DISCRETE M_00002_00012 #
+{0..7}
+**CONSTRAINTS**
+w-inintervalset(M_00002_00012, [0,0,6,7])
+**VARIABLES**
+DISCRETE M_00003_00002 #
+{26..33}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00002, [26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00003_00003 #
+{17..31}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00003, [17,18,21,21,24,24,26,26,31,31])
+**VARIABLES**
+DISCRETE M_00003_00004 #
+{18..33}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00004, [18,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00003_00005 #
+{18..33}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00005, [18,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00003_00006 #
+{21..46}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00006, [21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00003_00007 #
+{21..41}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00007, [21,21,24,24,26,26,31,31,33,33,41,41])
+**VARIABLES**
+DISCRETE M_00003_00008 #
+{24..46}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00008, [24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00003_00009 #
+{7..46}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00009, [7,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00003_00010 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00010, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00003_00011 #
+{0..42}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00011, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42])
+**VARIABLES**
+DISCRETE M_00003_00012 #
+{7..13}
+**CONSTRAINTS**
+w-inintervalset(M_00003_00012, [7,7,13,13])
+**VARIABLES**
+DISCRETE M_00004_00001 #
+{6..33}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00001, [6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00004_00002 #
+{18..33}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00002, [18,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00004_00003 #
+{17..33}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00003, [17,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00004_00004 #
+{18..33}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00004, [18,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00004_00005 #
+{18..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00005, [18,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00006 #
+{7..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00006, [7,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00007 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00007, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00008 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00008, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00009 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00009, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00010 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00010, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00004_00011 #
+{0..42}
+**CONSTRAINTS**
+w-inintervalset(M_00004_00011, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42])
+**VARIABLES**
+DISCRETE M_00005_00001 #
+{6..33}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00001, [6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00005_00002 #
+{17..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00002, [17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00003 #
+{13..33}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00003, [13,13,17,18,21,21,24,24,26,26,31,31,33,33])
+**VARIABLES**
+DISCRETE M_00005_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00006 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00006, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00007 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00007, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00008 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00008, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00009 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00009, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00005_00010 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00005_00010, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00006 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00006, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00007 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00007, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00008 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00008, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00006_00009 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00006_00009, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00006 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00006, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00007 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00007, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00007_00008 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00007_00008, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00006 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00006, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00008_00007 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00008_00007, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00009_00006 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00009_00006, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00010_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00010_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00010_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00010_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00010_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00010_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00010_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00010_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00010_00005 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00010_00005, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00011_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00011_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00011_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00011_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00011_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00011_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00011_00004 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00011_00004, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00012_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00012_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00012_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00012_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00012_00003 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00012_00003, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00013_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00013_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00013_00002 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00013_00002, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+DISCRETE M_00014_00001 #
+{0..46}
+**CONSTRAINTS**
+w-inintervalset(M_00014_00001, [0,0,6,7,13,13,17,18,21,21,24,24,26,26,31,31,33,33,41,42,46,46])
+**VARIABLES**
+BOOL aux13 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00004_00006=M_00005_00006)
+BOOL aux14 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00007_00007=M_00006_00007)
+DISCRETE aux15 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00006/13)
+{1..2}
+DISCRETE aux16 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00004/13)
+{1..2}
+DISCRETE aux17 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00011/13)
+{0..3}
+BOOL aux18 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00007_00008=M_00006_00009)
+BOOL aux19 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00003_00009=M_00004_00008)
+DISCRETE aux20 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00001/13)
+{0..3}
+DISCRETE aux21 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00008/13)
+{0..3}
+BOOL aux22 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00004_00007=M_00005_00007)
+DISCRETE aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00005/13)
+{0..3}
+DISCRETE aux24 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00001/13)
+{0..3}
+DISCRETE aux25 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00003/13)
+{0..3}
+BOOL aux26 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00008_00005=M_00009_00005)
+DISCRETE aux27 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00012_00002/13)
+{0..3}
+DISCRETE aux28 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00002_00010/13)
+{0..3}
+BOOL aux29 #Active-CSE: 6 occurrences of this expression or equivalent: (M_00002_00007=M_00003_00006)
+BOOL aux30 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00005_00007=M_00006_00006)
+DISCRETE aux31 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00002_00005/13)
+{1..2}
+DISCRETE aux33 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00002_00008/13)
+{1..3}
+BOOL aux34 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00010_00005=M_00011_00004)
+BOOL aux35 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00010_00003=M_00009_00003)
+BOOL aux36 #Active-CSE: 8 occurrences of this expression or equivalent: (M_00002_00008=M_00003_00008)
+BOOL aux37 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00007_00001=M_00008_00001)
+BOOL aux38 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00004_00005=M_00005_00004)
+BOOL aux39 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00010_00004=M_00009_00005)
+BOOL aux40 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00005_00001=M_00006_00001)
+BOOL aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00005=M_00009_00005)
+BOOL aux42 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00002=M_00009_00003)
+BOOL aux43 #Active-CSE: 18 occurrences of this expression or equivalent: (M_00003_00002=M_00004_00002)
+BOOL aux44 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00004_00006=M_00005_00005)
+BOOL aux45 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00010_00001=M_00009_00001)
+BOOL aux46 #Active-CSE: 17 occurrences of this expression or equivalent: (M_00004_00001=M_00005_00001)
+DISCRETE aux47 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00004_00009/13)
+{0..3}
+DISCRETE aux48 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00004_00003/13)
+{1..2}
+DISCRETE aux49 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00004_00002/13)
+{1..2}
+DISCRETE aux50 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00004_00010/13)
+{0..3}
+BOOL aux51 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00007_00007=M_00006_00008)
+BOOL aux52 #Active-CSE: 12 occurrences of this expression or equivalent: (M_00002_00010=M_00003_00009)
+BOOL aux53 #Active-CSE: 10 occurrences of this expression or equivalent: (M_00007_00002=M_00008_00002)
+BOOL aux54 #Active-CSE: 16 occurrences of this expression or equivalent: (M_00004_00002=M_00005_00002)
+BOOL aux55 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00010_00001=M_00011_00001)
+BOOL aux56 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00003_00008=M_00004_00007)
+BOOL aux57 #Active-CSE: 8 occurrences of this expression or equivalent: (M_00008_00002=M_00009_00002)
+BOOL aux58 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00004_00010=M_00005_00009)
+BOOL aux60 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00004_00008=M_00005_00008)
+BOOL aux61 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00003=M_00012_00002)
+BOOL aux62 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00003=M_00012_00003)
+BOOL aux63 #Active-CSE: 10 occurrences of this expression or equivalent: (M_00002_00009=M_00003_00008)
+BOOL aux64 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00007_00006=M_00008_00005)
+BOOL aux65 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00008_00004=M_00009_00003)
+BOOL aux66 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00003_00007=M_00004_00006)
+BOOL aux67 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00003_00009=M_00004_00009)
+BOOL aux68 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00003_00005=M_00004_00004)
+BOOL aux69 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00011_00002=M_00012_00002)
+BOOL aux70 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00011_00001=M_00012_00001)
+BOOL aux71 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00011_00004=M_00012_00003)
+BOOL aux72 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00005_00008=M_00006_00008)
+DISCRETE aux73 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00008_00004/13)
+{0..3}
+BOOL aux74 #Active-CSE: 17 occurrences of this expression or equivalent: (M_00003_00011=M_00004_00010)
+BOOL aux75 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00010_00004=M_00011_00003)
+BOOL aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00012/13)
+DISCRETE aux78 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00005_00001/13)
+{0..2}
+DISCRETE aux79 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00005_00010/13)
+{0..3}
+BOOL aux80 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00003_00004=M_00004_00004)
+BOOL aux81 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00007_00001=M_00006_00001)
+DISCRETE aux82 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00008_00001/13)
+{0..3}
+DISCRETE aux83 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00008_00007/13)
+{0..3}
+BOOL aux84 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00003_00008=M_00004_00008)
+DISCRETE aux85 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00006_00008/13)
+{0..3}
+DISCRETE aux86 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00006_00007/13)
+{0..3}
+DISCRETE aux87 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00006_00003/13)
+{0..3}
+DISCRETE aux88 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00006_00002/13)
+{0..3}
+BOOL aux89 #Active-CSE: 19 occurrences of this expression or equivalent: (M_00003_00012=M_00004_00011)
+BOOL aux90 #Active-CSE: 14 occurrences of this expression or equivalent: (M_00005_00002=M_00006_00002)
+BOOL aux91 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00005_00009=M_00006_00008)
+BOOL aux92 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00003=M_00011_00002)
+BOOL aux93 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00010_00004=M_00011_00004)
+BOOL aux94 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00005_00010=M_00006_00009)
+BOOL aux95 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00010_00002=M_00011_00002)
+BOOL aux96 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00010_00003=M_00011_00003)
+BOOL aux97 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00010_00004=M_00009_00004)
+BOOL aux98 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00004_00004=M_00005_00003)
+BOOL aux99 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00005=M_00003_00004)
+BOOL aux100 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00002_00006=M_00003_00005)
+BOOL aux101 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00002_00010=M_00003_00010)
+BOOL aux102 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00004_00007=M_00005_00006)
+BOOL aux103 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00007_00003=M_00006_00003)
+BOOL aux104 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00005_00003=M_00006_00003)
+DISCRETE aux105 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00009_00005/13)
+{0..3}
+DISCRETE aux106 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00009_00003/13)
+{0..3}
+DISCRETE aux107 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00009_00004/13)
+{0..3}
+DISCRETE aux108 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00009_00002/13)
+{0..3}
+BOOL aux109 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00007_00006=M_00006_00007)
+BOOL aux110 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00003=M_00008_00002)
+BOOL aux111 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00007=M_00008_00007)
+DISCRETE aux112 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00001/13)
+{0..3}
+DISCRETE aux113 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00002/13)
+{0..3}
+DISCRETE aux114 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00003/13)
+{0..3}
+DISCRETE aux115 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00011_00004/13)
+{0..3}
+BOOL aux116 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00003_00006=M_00004_00005)
+BOOL aux117 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00008_00006=M_00009_00006)
+BOOL aux118 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00008_00003=M_00009_00002)
+BOOL aux119 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00005_00008=M_00006_00007)
+BOOL aux120 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00010_00003=M_00009_00004)
+DISCRETE aux121 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00006_00004/13)
+{0..3}
+DISCRETE aux122 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00006_00005/13)
+{0..3}
+DISCRETE aux123 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00006_00006/13)
+{0..3}
+DISCRETE aux124 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00006_00001/13)
+{0..3}
+DISCRETE aux125 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00006_00009/13)
+{0..3}
+BOOL aux126 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00003_00007=M_00004_00007)
+DISCRETE aux127 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00010/13)
+{0..3}
+DISCRETE aux128 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00011/13)
+{0..3}
+DISCRETE aux129 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00003/13)
+{1..2}
+DISCRETE aux130 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00004/13)
+{1..2}
+BOOL aux131 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00005_00005=M_00006_00004)
+BOOL aux132 #Active-CSE: 6 occurrences of this expression or equivalent: (M_00002_00009=M_00003_00009)
+BOOL aux133 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00003_00005=M_00004_00005)
+BOOL aux134 #Active-CSE: 6 occurrences of this expression or equivalent: (M_00010_00002=M_00009_00002)
+BOOL aux135 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00011=M_00004_00011)
+BOOL aux136 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00003=M_00004_00002)
+BOOL aux137 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00004_00005=M_00005_00005)
+BOOL aux138 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00005_00003=M_00006_00002)
+BOOL aux139 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00005_00009=M_00006_00009)
+DISCRETE aux140 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00010_00004/13)
+{0..3}
+DISCRETE aux141 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00010_00002/13)
+{0..3}
+BOOL aux142 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00005_00006=M_00006_00006)
+BOOL aux143 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00008_00003=M_00009_00003)
+DISCRETE aux144 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00005_00009/13)
+{0..3}
+DISCRETE aux145 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00005_00008/13)
+{0..3}
+DISCRETE aux146 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00005_00002/13)
+{1..3}
+DISCRETE aux147 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00005_00003/13)
+{1..2}
+BOOL aux148 #Active-CSE: 16 occurrences of this expression or equivalent: (M_00002_00012=M_00003_00011)
+BOOL aux149 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00010=M_00005_00010)
+BOOL aux150 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00003=M_00005_00002)
+BOOL aux151 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00005_00005=M_00006_00005)
+BOOL aux152 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00005_00007=M_00006_00007)
+BOOL aux153 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00004_00008=M_00005_00007)
+BOOL aux154 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00007_00003=M_00008_00003)
+DISCRETE aux155 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00002/13)
+{0..3}
+DISCRETE aux156 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00003/13)
+{0..3}
+DISCRETE aux157 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00006/13)
+{0..3}
+DISCRETE aux158 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00007/13)
+{0..3}
+BOOL aux159 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00004_00009=M_00005_00008)
+BOOL aux160 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00008_00004=M_00009_00004)
+BOOL aux161 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00008_00005=M_00009_00004)
+BOOL aux162 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00010=M_00004_00010)
+DISCRETE aux163 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00007_00004/13)
+{0..3}
+DISCRETE aux164 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00007_00005/13)
+{0..3}
+BOOL aux165 #Active-CSE: 17 occurrences of this expression or equivalent: (M_00004_00011=M_00005_00010)
+BOOL aux166 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00007_00004=M_00006_00004)
+BOOL aux167 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00003_00004=M_00004_00003)
+BOOL aux168 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00004=M_00008_00003)
+BOOL aux169 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00010_00005=M_00009_00006)
+BOOL aux170 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00005_00004=M_00006_00003)
+DISCRETE aux171 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00007/13)
+{0..3}
+DISCRETE aux172 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00008/13)
+{0..3}
+DISCRETE aux173 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00004/13)
+{1..2}
+DISCRETE aux174 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00005/13)
+{1..3}
+DISCRETE aux175 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00006/13)
+{0..3}
+BOOL aux176 #Active-CSE: 13 occurrences of this expression or equivalent: (M_00004_00004=M_00005_00004)
+BOOL aux177 #Active-CSE: 8 occurrences of this expression or equivalent: (M_00002_00008=M_00003_00007)
+BOOL aux178 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00005_00004=M_00006_00004)
+BOOL aux179 #Active-CSE: 14 occurrences of this expression or equivalent: (M_00002_00011=M_00003_00010)
+BOOL aux180 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00008_00006=M_00009_00005)
+BOOL aux181 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00007_00003=M_00006_00004)
+BOOL aux182 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00007_00004=M_00008_00004)
+BOOL aux183 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00007_00005=M_00006_00005)
+DISCRETE aux184 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00008_00003/13)
+{0..3}
+DISCRETE aux185 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00008_00005/13)
+{0..3}
+DISCRETE aux186 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00008_00006/13)
+{0..3}
+DISCRETE aux187 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00008_00002/13)
+{0..3}
+BOOL aux188 #Active-CSE: 12 occurrences of this expression or equivalent: (M_00007_00002=M_00006_00002)
+BOOL aux189 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00008=M_00006_00008)
+BOOL aux190 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00007_00002=M_00006_00003)
+BOOL aux191 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00007_00006=M_00008_00006)
+BOOL aux192 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00005_00006=M_00006_00005)
+BOOL aux193 #Active-CSE: 10 occurrences of this expression or equivalent: (M_00002_00007=M_00003_00007)
+DISCRETE aux194 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00009/13)
+{0..3}
+DISCRETE aux195 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00007/13)
+{1..3}
+DISCRETE aux196 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00008/13)
+{1..3}
+DISCRETE aux197 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00006/13)
+{1..3}
+DISCRETE aux198 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00003_00005/13)
+{1..2}
+BOOL aux199 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00007_00007=M_00008_00006)
+BOOL aux200 #Active-CSE: 12 occurrences of this expression or equivalent: (M_00002_00006=M_00003_00006)
+BOOL aux201 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00008_00001=M_00009_00001)
+BOOL aux202 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00007_00006=M_00006_00006)
+BOOL aux203 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00004_00003=M_00005_00003)
+BOOL aux204 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00007_00005=M_00008_00004)
+BOOL aux205 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00007_00005=M_00008_00005)
+BOOL aux206 #Active-CSE: 3 occurrences of this expression or equivalent: (M_00002_00011=M_00003_00011)
+BOOL aux207 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00012_00001=M_00013_00001)
+BOOL aux208 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00012_00003=M_00013_00002)
+DISCRETE aux209 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00005_00004/13)
+{0..3}
+DISCRETE aux210 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00005_00005/13)
+{0..3}
+DISCRETE aux211 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00005_00006/13)
+{0..3}
+BOOL aux212 #Active-CSE: 16 occurrences of this expression or equivalent: (M_00002_00004=M_00003_00004)
+DISCRETE aux213 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00005_00007/13)
+{0..3}
+BOOL aux214 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00007_00008=M_00008_00007)
+BOOL aux215 #Active-CSE: 14 occurrences of this expression or equivalent: (M_00002_00005=M_00003_00005)
+BOOL aux216 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00007_00005=M_00006_00006)
+DISCRETE aux217 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00009_00006/13)
+{0..3}
+DISCRETE aux218 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00009_00001/13)
+{0..3}
+BOOL aux219 #Active-CSE: 9 occurrences of this expression or equivalent: (M_00008_00007=M_00009_00006)
+DISCRETE aux220 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00001/13)
+{0..2}
+DISCRETE aux221 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00011/13)
+{0..3}
+BOOL aux222 #Active-CSE: 4 occurrences of this expression or equivalent: (M_00004_00009=M_00005_00009)
+BOOL aux223 #Active-CSE: 5 occurrences of this expression or equivalent: (M_00007_00004=M_00006_00005)
+BOOL aux224 #Active-CSE: 15 occurrences of this expression or equivalent: (M_00003_00010=M_00004_00009)
+BOOL aux225 #Active-CSE: 17 occurrences of this expression or equivalent: (M_00003_00003=M_00004_00003)
+BOOL aux226 #Active-CSE: 11 occurrences of this expression or equivalent: (M_00003_00006=M_00004_00006)
+DISCRETE aux227 #
+{0..3}
+DISCRETE aux228 #( - M_00002_00004 + M_00002_00005)
+{-13..15}
+**CONSTRAINTS**
+w-inintervalset(aux228, [-13,-13,-10,-10,-8,-5,-3,-2,0,0,2,3,5,10,12,13,15,15])
+**VARIABLES**
+DISCRETE aux229 #( - M_00002_00005 + M_00002_00006)
+{-12..15}
+**CONSTRAINTS**
+w-inintervalset(aux229, [-12,-12,-10,-9,-7,-7,-5,-5,-3,-2,0,0,2,3,5,10,12,13,15,15])
+**VARIABLES**
+DISCRETE aux230 #( - M_00002_00007 + M_00002_00008)
+{3..20}
+**CONSTRAINTS**
+w-inintervalset(aux230, [3,3,5,5,7,7,9,10,12,12,17,17,20,20])
+**VARIABLES**
+DISCRETE aux231 #( - M_00002_00007 + M_00002_00010)
+{-14..25}
+**CONSTRAINTS**
+w-inintervalset(aux231, [-14,-14,-11,-11,-8,-6,-4,-3,0,0,2,3,5,5,7,7,9,10,12,12,17,18,20,22,25,25])
+**VARIABLES**
+DISCRETE aux232 #(M_00002_00004 + -17)
+{1..14}
+**CONSTRAINTS**
+w-inintervalset(aux232, [1,1,4,4,7,7,9,9,14,14])
+**VARIABLES**
+DISCRETE aux233 #(M_00002_00005 + -26)
+{-8..7}
+**CONSTRAINTS**
+w-inintervalset(aux233, [-8,-8,-5,-5,-2,-2,0,0,5,5,7,7])
+**VARIABLES**
+DISCRETE aux234 #( - M_00002_00006 + M_00002_00007)
+{-12..3}
+**CONSTRAINTS**
+w-inintervalset(aux234, [-12,-12,-10,-9,-7,-7,-5,-5,-3,-2,0,0,3,3])
+**VARIABLES**
+DISCRETE aux235 #( - M_00002_00004 + M_00002_00007)
+{-10..6}
+**CONSTRAINTS**
+w-inintervalset(aux235, [-10,-10,-7,-7,-5,-5,-3,-2,0,0,3,3,6,6])
+**VARIABLES**
+DISCRETE aux236 #( - M_00002_00006 + M_00002_00009)
+{8..25}
+**CONSTRAINTS**
+w-inintervalset(aux236, [8,11,13,13,15,18,20,22,25,25])
+**VARIABLES**
+DISCRETE aux237 #( - M_00002_00012 + 13)
+{6..13}
+**CONSTRAINTS**
+w-inintervalset(aux237, [6,7,13,13])
+**VARIABLES**
+DISCRETE aux238 #( - M_00002_00005 + M_00002_00008)
+{6..23}
+**CONSTRAINTS**
+w-inintervalset(aux238, [6,10,12,13,15,15,17,17,20,20,23,23])
+**VARIABLES**
+DISCRETE aux239 #( - M_00002_00009 + M_00002_00012)
+{-41..-34}
+**CONSTRAINTS**
+w-inintervalset(aux239, [-41,-39,-36,-34])
+**VARIABLES**
+DISCRETE aux240 #(M_00002_00006 + -17)
+{4..16}
+**CONSTRAINTS**
+w-inintervalset(aux240, [4,4,7,7,9,9,14,14,16,16])
+**VARIABLES**
+DISCRETE aux241 #( - M_00002_00009 + M_00002_00010)
+{-34..5}
+**CONSTRAINTS**
+w-inintervalset(aux241, [-34,-33,-29,-28,-25,-20,-18,-15,-13,-13,-11,-8,-5,-4,-1,1,4,5])
+**VARIABLES**
+DISCRETE aux242 #( - M_00002_00010 + M_00002_00011)
+{-42..35}
+**CONSTRAINTS**
+w-inintervalset(aux242, [-42,-39,-36,-33,-31,-31,-29,21,23,26,28,29,34,35])
+**VARIABLES**
+DISCRETE aux243 #( - M_00002_00011 + M_00002_00012)
+{-42..7}
+**CONSTRAINTS**
+w-inintervalset(aux243, [-42,-41,-36,-33,-31,-31,-27,-24,-21,-17,-15,-10,-7,-6,-1,1,6,7])
+**VARIABLES**
+DISCRETE aux244 #( - M_00002_00008 + M_00002_00009)
+{5..22}
+**CONSTRAINTS**
+w-inintervalset(aux244, [5,5,8,11,13,13,15,18,20,20,22,22])
+**VARIABLES**
+DISCRETE aux245 #( - M_00002_00008 + M_00002_00011)
+{-41..18}
+**CONSTRAINTS**
+w-inintervalset(aux245, [-41,-41,-35,-33,-31,-31,-28,-23,-20,-5,-3,-2,0,2,5,5,7,11,15,18])
+**VARIABLES**
+DISCRETE aux246 #( - M_00002_00010 + 13)
+{-33..6}
+**CONSTRAINTS**
+w-inintervalset(aux246, [-33,-33,-29,-28,-20,-20,-18,-18,-13,-13,-11,-11,-8,-8,-5,-4,0,0,6,6])
+**VARIABLES**
+DISCRETE aux247 #( - M_00003_00002 + M_00003_00005)
+{-12..7}
+**CONSTRAINTS**
+w-inintervalset(aux247, [-12,-12,-10,-7,-5,-5,-2,-2,0,0,2,2,5,5,7,7])
+**VARIABLES**
+DISCRETE aux248 #( - M_00003_00004 + M_00003_00007)
+{-10..23}
+**CONSTRAINTS**
+w-inintervalset(aux248, [-10,-9,-7,-7,-5,-5,-3,-2,0,0,2,3,5,10,12,13,15,15,17,17,20,20,23,23])
+**VARIABLES**
+DISCRETE aux249 #(M_00003_00002 + -6)
+{20..27}
+**CONSTRAINTS**
+w-inintervalset(aux249, [20,20,25,25,27,27])
+**VARIABLES**
+DISCRETE aux250 #( - M_00003_00007 + M_00003_00008)
+{0..25}
+**CONSTRAINTS**
+w-inintervalset(aux250, [0,3,5,5,7,13,15,18,20,22,25,25])
+**VARIABLES**
+DISCRETE aux251 #( - M_00003_00002 + M_00003_00003)
+{-16..5}
+**CONSTRAINTS**
+w-inintervalset(aux251, [-16,-12,-10,-7,-5,-5,-2,-2,0,0,5,5])
+**VARIABLES**
+DISCRETE aux252 #( - M_00003_00005 + M_00003_00008)
+{-9..28}
+**CONSTRAINTS**
+w-inintervalset(aux252, [-9,-9,-7,-7,-5,-5,-2,-2,0,0,2,3,5,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux253 #( - M_00003_00004 + M_00003_00005)
+{-13..15}
+**CONSTRAINTS**
+w-inintervalset(aux253, [-13,-12,-10,-5,-3,-2,0,0,2,3,5,10,12,13,15,15])
+**VARIABLES**
+DISCRETE aux254 #( - M_00003_00003 + M_00003_00004)
+{-13..15}
+**CONSTRAINTS**
+w-inintervalset(aux254, [-13,-13,-10,-10,-8,-5,-3,-2,0,10,12,15])
+**VARIABLES**
+DISCRETE aux255 #( - M_00003_00006 + M_00003_00009)
+{-26..25}
+**CONSTRAINTS**
+w-inintervalset(aux255, [-26,5,7,13,15,18,20,22,25,25])
+**VARIABLES**
+DISCRETE aux256 #( - M_00003_00007 + M_00003_00010)
+{-41..25}
+**CONSTRAINTS**
+w-inintervalset(aux256, [-41,-41,-35,-33,-31,-31,-28,-23,-21,-2,0,3,5,5,7,13,15,18,20,22,25,25])
+**VARIABLES**
+DISCRETE aux257 #( - M_00003_00009 + M_00003_00010)
+{-46..35}
+**CONSTRAINTS**
+w-inintervalset(aux257, [-46,-46,-42,-39,-36,-33,-31,-31,-29,26,28,29,33,35])
+**VARIABLES**
+DISCRETE aux258 #( - M_00003_00010 + M_00003_00011)
+{-46..35}
+**CONSTRAINTS**
+w-inintervalset(aux258, [-46,-46,-42,-39,-36,-33,-31,-31,-29,21,23,29,31,31,33,35])
+**VARIABLES**
+DISCRETE aux259 #( - M_00003_00009 + M_00003_00012)
+{-39..6}
+**CONSTRAINTS**
+w-inintervalset(aux259, [-39,-39,-35,-33,-29,-28,-26,-26,-24,-24,-20,-17,-14,-13,-11,-10,-8,-8,-6,-4,0,0,6,6])
+**VARIABLES**
+DISCRETE aux260 #( - M_00003_00011 + M_00003_00012)
+{-29..13}
+**CONSTRAINTS**
+w-inintervalset(aux260, [-29,-28,-26,-26,-24,-24,-20,-17,-14,-13,-11,-10,-8,-8,-6,-4,0,1,6,7,13,13])
+**VARIABLES**
+DISCRETE aux261 #( - M_00003_00003 + M_00003_00006)
+{-10..29}
+**CONSTRAINTS**
+w-inintervalset(aux261, [-10,-10,-7,-7,-5,-5,-3,-2,0,0,2,18,20,25,28,29])
+**VARIABLES**
+DISCRETE aux262 #( - M_00003_00005 + M_00003_00006)
+{-12..28}
+**CONSTRAINTS**
+w-inintervalset(aux262, [-12,-12,-10,-9,-7,-7,-5,-5,-3,-2,0,0,2,3,5,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux263 #( - M_00003_00012 + -1)
+{-14..-8}
+**CONSTRAINTS**
+w-inintervalset(aux263, [-14,-14,-8,-8])
+**VARIABLES**
+DISCRETE aux264 #( - M_00003_00006 + M_00003_00007)
+{-25..20}
+**CONSTRAINTS**
+w-inintervalset(aux264, [-25,-25,-22,-20,-18,-15,-13,-7,-5,-5,-3,0,2,3,5,5,7,10,12,12,15,15,17,17,20,20])
+**VARIABLES**
+DISCRETE aux265 #( - M_00003_00008 + M_00003_00009)
+{-39..22}
+**CONSTRAINTS**
+w-inintervalset(aux265, [-39,-39,-35,-33,-29,-28,-26,2,4,5,7,11,13,13,15,18,20,20,22,22])
+**VARIABLES**
+DISCRETE aux266 #(M_00003_00004 + -6)
+{12..27}
+**CONSTRAINTS**
+w-inintervalset(aux266, [12,12,15,15,18,18,20,20,25,25,27,27])
+**VARIABLES**
+DISCRETE aux267 #( - M_00003_00008 + M_00003_00011)
+{-46..18}
+**CONSTRAINTS**
+w-inintervalset(aux267, [-46,-46,-42,-39,-36,-33,-31,-31,-29,2,5,5,7,11,15,18])
+**VARIABLES**
+DISCRETE aux268 #( - M_00004_00002 + M_00004_00005)
+{-15..28}
+**CONSTRAINTS**
+w-inintervalset(aux268, [-15,-15,-13,-12,-10,-5,-3,-2,0,0,2,3,5,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux269 #( - M_00004_00005 + M_00004_00006)
+{-26..28}
+**CONSTRAINTS**
+w-inintervalset(aux269, [-26,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux270 #( - M_00004_00003 + M_00004_00006)
+{-18..29}
+**CONSTRAINTS**
+w-inintervalset(aux270, [-18,18,20,25,28,29])
+**VARIABLES**
+DISCRETE aux271 #( - M_00004_00002 + M_00004_00003)
+{-16..13}
+**CONSTRAINTS**
+w-inintervalset(aux271, [-16,-12,-10,0,2,3,5,10,12,13])
+**VARIABLES**
+DISCRETE aux272 #( - M_00004_00001 + M_00004_00002)
+{-7..27}
+**CONSTRAINTS**
+w-inintervalset(aux272, [-7,-5,-3,-2,0,20,24,27])
+**VARIABLES**
+DISCRETE aux273 #( - M_00004_00004 + M_00004_00007)
+{-31..28}
+**CONSTRAINTS**
+w-inintervalset(aux273, [-31,-31,-27,-24,-21,0,2,3,5,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux274 #( - M_00004_00005 + M_00004_00008)
+{-39..28}
+**CONSTRAINTS**
+w-inintervalset(aux274, [-39,-39,-36,-33,-31,-31,-29,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux275 #( - M_00004_00011 + -1)
+{-43..-1}
+**CONSTRAINTS**
+w-inintervalset(aux275, [-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux276 #( - M_00004_00009 + M_00004_00010)
+{-46..42}
+**CONSTRAINTS**
+w-inintervalset(aux276, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42])
+**VARIABLES**
+DISCRETE aux277 #( - M_00004_00010 + M_00004_00011)
+{-46..42}
+**CONSTRAINTS**
+w-inintervalset(aux277, [-46,-46,-42,-39,-36,-33,-31,-31,-29,21,23,29,31,31,33,36,41,42])
+**VARIABLES**
+DISCRETE aux278 #( - M_00004_00008 + M_00004_00009)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux278, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux279 #( - M_00004_00008 + M_00004_00011)
+{-46..18}
+**CONSTRAINTS**
+w-inintervalset(aux279, [-46,-46,-42,-39,-36,-33,-31,-31,-29,18])
+**VARIABLES**
+DISCRETE aux280 #( - M_00004_00007 + M_00004_00008)
+{-39..46}
+**CONSTRAINTS**
+w-inintervalset(aux280, [-39,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux281 #( - M_00004_00007 + M_00004_00010)
+{-46..29}
+**CONSTRAINTS**
+w-inintervalset(aux281, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29])
+**VARIABLES**
+DISCRETE aux282 #( - M_00004_00001 + M_00004_00004)
+{-15..27}
+**CONSTRAINTS**
+w-inintervalset(aux282, [-15,-15,-13,-12,-10,-5,-3,-2,0,20,24,27])
+**VARIABLES**
+DISCRETE aux283 #( - M_00004_00003 + M_00004_00004)
+{-15..16}
+**CONSTRAINTS**
+w-inintervalset(aux283, [-15,-15,-13,-12,-10,-5,-3,-2,0,10,12,16])
+**VARIABLES**
+DISCRETE aux284 #( - M_00004_00004 + M_00004_00005)
+{-15..28}
+**CONSTRAINTS**
+w-inintervalset(aux284, [-15,-15,-13,-12,-10,-5,-3,-2,0,0,2,3,5,13,15,18,20,25,28,28])
+**VARIABLES**
+DISCRETE aux285 #( - M_00004_00006 + M_00004_00007)
+{-33..34}
+**CONSTRAINTS**
+w-inintervalset(aux285, [-33,-33,-31,-31,-29,26,28,29,33,34])
+**VARIABLES**
+DISCRETE aux286 #( - M_00004_00006 + M_00004_00009)
+{-46..35}
+**CONSTRAINTS**
+w-inintervalset(aux286, [-46,-46,-42,-39,-36,-33,-31,-31,-29,26,28,29,33,35])
+**VARIABLES**
+DISCRETE aux287 #( - M_00005_00003 + M_00005_00004)
+{-31..29}
+**CONSTRAINTS**
+w-inintervalset(aux287, [-31,-31,-27,-24,-21,18,20,25,28,29])
+**VARIABLES**
+DISCRETE aux288 #( - M_00005_00005 + M_00005_00006)
+{-46..39}
+**CONSTRAINTS**
+w-inintervalset(aux288, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,39])
+**VARIABLES**
+DISCRETE aux289 #( - M_00005_00005 + M_00005_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux289, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux290 #( - M_00005_00001 + M_00005_00004)
+{-15..40}
+**CONSTRAINTS**
+w-inintervalset(aux290, [-15,29,33,36,39,40])
+**VARIABLES**
+DISCRETE aux291 #( - M_00005_00004 + M_00005_00005)
+{-39..33}
+**CONSTRAINTS**
+w-inintervalset(aux291, [-39,-39,-36,-33,-31,-31,-29,29,31,31,33,33])
+**VARIABLES**
+DISCRETE aux292 #( - M_00005_00002 + M_00005_00005)
+{-33..29}
+**CONSTRAINTS**
+w-inintervalset(aux292, [-33,-33,-31,-31,-29,18,20,25,28,29])
+**VARIABLES**
+DISCRETE aux293 #( - M_00005_00001 + M_00005_00002)
+{-16..40}
+**CONSTRAINTS**
+w-inintervalset(aux293, [-16,-12,-10,29,33,36,39,40])
+**VARIABLES**
+DISCRETE aux294 #( - M_00005_00003 + M_00005_00006)
+{-33..29}
+**CONSTRAINTS**
+w-inintervalset(aux294, [-33,-33,-31,-31,-27,-24,-21,18,20,25,28,29])
+**VARIABLES**
+DISCRETE aux295 #( - M_00005_00004 + M_00005_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux295, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux296 #(-1 - M_00005_00010)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux296, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux297 #( - M_00005_00007 + M_00005_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux297, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux298 #( - M_00005_00008 + M_00005_00009)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux298, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux299 #( - M_00005_00007 + M_00005_00010)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux299, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux300 #( - M_00005_00009 + M_00005_00010)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux300, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux301 #( - M_00005_00006 + M_00005_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux301, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux302 #( - M_00005_00006 + M_00005_00009)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux302, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux303 #( - M_00005_00002 + M_00005_00003)
+{-29..16}
+**CONSTRAINTS**
+w-inintervalset(aux303, [-29,-28,-25,-20,-18,10,12,16])
+**VARIABLES**
+DISCRETE aux304 #( - M_00006_00002 + M_00006_00003)
+{-46..33}
+**CONSTRAINTS**
+w-inintervalset(aux304, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,33])
+**VARIABLES**
+DISCRETE aux305 #( - M_00006_00003 + M_00006_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux305, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux306 #( - M_00006_00001 + M_00006_00004)
+{-46..40}
+**CONSTRAINTS**
+w-inintervalset(aux306, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,40])
+**VARIABLES**
+DISCRETE aux307 #(-1 - M_00006_00009)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux307, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux308 #( - M_00006_00006 + M_00006_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux308, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux309 #( - M_00006_00007 + M_00006_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux309, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux310 #( - M_00006_00006 + M_00006_00009)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux310, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux311 #( - M_00006_00008 + M_00006_00009)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux311, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux312 #( - M_00006_00005 + M_00006_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux312, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux313 #( - M_00006_00005 + M_00006_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux313, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux314 #( - M_00006_00004 + M_00006_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux314, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux315 #( - M_00006_00004 + M_00006_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux315, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux316 #( - M_00006_00001 + M_00006_00002)
+{-33..40}
+**CONSTRAINTS**
+w-inintervalset(aux316, [-33,-33,-31,-31,-29,29,31,31,33,36,39,40])
+**VARIABLES**
+DISCRETE aux317 #( - M_00006_00003 + M_00006_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux317, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux318 #( - M_00006_00002 + M_00006_00005)
+{-46..39}
+**CONSTRAINTS**
+w-inintervalset(aux318, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,39])
+**VARIABLES**
+DISCRETE aux319 #( - M_00007_00007 + M_00007_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux319, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux320 #( - M_00007_00005 + M_00007_00008)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux320, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux321 #( - M_00007_00008 + -1)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux321, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux322 #( - M_00007_00001 + M_00007_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux322, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux323 #( - M_00007_00003 + M_00007_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux323, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux324 #( - M_00007_00002 + M_00007_00003)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux324, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux325 #( - M_00007_00004 + M_00007_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux325, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux326 #( - M_00007_00005 + M_00007_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux326, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux327 #( - M_00007_00003 + M_00007_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux327, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux328 #( - M_00007_00001 + M_00007_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux328, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux329 #( - M_00007_00002 + M_00007_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux329, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux330 #( - M_00007_00006 + M_00007_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux330, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux331 #( - M_00007_00004 + M_00007_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux331, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux332 #( - M_00008_00007 + -1)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux332, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux333 #( - M_00008_00002 + M_00008_00003)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux333, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux334 #( - M_00008_00003 + M_00008_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux334, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux335 #( - M_00008_00004 + M_00008_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux335, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux336 #( - M_00008_00001 + M_00008_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux336, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux337 #( - M_00008_00005 + M_00008_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux337, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux338 #( - M_00008_00006 + M_00008_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux338, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux339 #( - M_00008_00002 + M_00008_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux339, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux340 #( - M_00008_00003 + M_00008_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux340, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux341 #( - M_00008_00004 + M_00008_00007)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux341, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux342 #( - M_00008_00001 + M_00008_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux342, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux343 #( - M_00009_00004 + M_00009_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux343, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux344 #( - M_00009_00001 + M_00009_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux344, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux345 #( - M_00009_00005 + M_00009_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux345, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux346 #( - M_00009_00002 + M_00009_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux346, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux347 #( - M_00009_00003 + M_00009_00006)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux347, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux348 #( - M_00009_00001 + M_00009_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux348, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux349 #(-1 - M_00009_00006)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux349, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux350 #( - M_00009_00002 + M_00009_00003)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux350, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux351 #( - M_00009_00003 + M_00009_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux351, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux352 #( - M_00010_00003 + M_00010_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux352, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux353 #( - M_00010_00004 + M_00010_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux353, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux354 #( - M_00010_00002 + M_00010_00003)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux354, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux355 #( - M_00010_00002 + M_00010_00005)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux355, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux356 #( - M_00010_00001 + M_00010_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux356, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux357 #( - M_00010_00001 + M_00010_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux357, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux358 #( - M_00010_00005 + -1)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux358, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux359 #( - M_00011_00002 + M_00011_00003)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux359, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux360 #( - M_00011_00003 + M_00011_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux360, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux361 #( - M_00011_00004 + -1)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux361, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux362 #( - M_00011_00001 + M_00011_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux362, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux363 #( - M_00011_00001 + M_00011_00004)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux363, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux364 #( - M_00012_00001 + M_00012_00002)
+{-46..46}
+**CONSTRAINTS**
+w-inintervalset(aux364, [-46,-46,-42,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,42,46,46])
+**VARIABLES**
+DISCRETE aux365 #( - M_00012_00002 + M_00012_00003)
+{-39..39}
+**CONSTRAINTS**
+w-inintervalset(aux365, [-39,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,39])
+**VARIABLES**
+DISCRETE aux366 #( - M_00012_00003 + -1)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux366, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux367 #(-1 - M_00013_00002)
+{-47..-1}
+**CONSTRAINTS**
+w-inintervalset(aux367, [-47,-47,-43,-42,-34,-34,-32,-32,-27,-27,-25,-25,-22,-22,-19,-18,-14,-14,-8,-7,-1,-1])
+**VARIABLES**
+DISCRETE aux368 #( - M_00013_00001 + M_00013_00002)
+{-39..39}
+**CONSTRAINTS**
+w-inintervalset(aux368, [-39,-39,-36,-33,-31,-31,-29,29,31,31,33,36,39,39])
+**VARIABLES**
+**VARIABLES**
+ALIAS cards[14]=[6, 26, 17, 31, 18, 33, 21, 24, 41, 46, 42, 0, 7, 13]
+**SEARCH**
+PRINT[[M_00002_00004],[M_00002_00005],[M_00002_00006],[M_00002_00007],[M_00002_00008],[M_00002_00009],[M_00002_00010],[M_00002_00011],[M_00002_00012],[M_00003_00002],[M_00003_00003],[M_00003_00004],[M_00003_00005],[M_00003_00006],[M_00003_00007],[M_00003_00008],[M_00003_00009],[M_00003_00010],[M_00003_00011],[M_00003_00012],[M_00004_00001],[M_00004_00002],[M_00004_00003],[M_00004_00004],[M_00004_00005],[M_00004_00006],[M_00004_00007],[M_00004_00008],[M_00004_00009],[M_00004_00010],[M_00004_00011],[M_00005_00001],[M_00005_00002],[M_00005_00003],[M_00005_00004],[M_00005_00005],[M_00005_00006],[M_00005_00007],[M_00005_00008],[M_00005_00009],[M_00005_00010],[M_00006_00001],[M_00006_00002],[M_00006_00003],[M_00006_00004],[M_00006_00005],[M_00006_00006],[M_00006_00007],[M_00006_00008],[M_00006_00009],[M_00007_00001],[M_00007_00002],[M_00007_00003],[M_00007_00004],[M_00007_00005],[M_00007_00006],[M_00007_00007],[M_00007_00008],[M_00008_00001],[M_00008_00002],[M_00008_00003],[M_00008_00004],[M_00008_00005],[M_00008_00006],[M_00008_00007],[M_00009_00001],[M_00009_00002],[M_00009_00003],[M_00009_00004],[M_00009_00005],[M_00009_00006],[M_00010_00001],[M_00010_00002],[M_00010_00003],[M_00010_00004],[M_00010_00005],[M_00011_00001],[M_00011_00002],[M_00011_00003],[M_00011_00004],[M_00012_00001],[M_00012_00002],[M_00012_00003],[M_00013_00001],[M_00013_00002],[M_00014_00001]]
+VARORDER STATIC [M_00002_00004, M_00002_00005, M_00002_00006, M_00002_00007, M_00002_00008, M_00002_00009, M_00002_00010, M_00002_00011, M_00002_00012, M_00003_00002, M_00003_00003, M_00003_00004, M_00003_00005, M_00003_00006, M_00003_00007, M_00003_00008, M_00003_00009, M_00003_00010, M_00003_00011, M_00003_00012, M_00004_00001, M_00004_00002, M_00004_00003, M_00004_00004, M_00004_00005, M_00004_00006, M_00004_00007, M_00004_00008, M_00004_00009, M_00004_00010, M_00004_00011, M_00005_00001, M_00005_00002, M_00005_00003, M_00005_00004, M_00005_00005, M_00005_00006, M_00005_00007, M_00005_00008, M_00005_00009, M_00005_00010, M_00006_00001, M_00006_00002, M_00006_00003, M_00006_00004, M_00006_00005, M_00006_00006, M_00006_00007, M_00006_00008, M_00006_00009, M_00007_00001, M_00007_00002, M_00007_00003, M_00007_00004, M_00007_00005, M_00007_00006, M_00007_00007, M_00007_00008, M_00008_00001, M_00008_00002, M_00008_00003, M_00008_00004, M_00008_00005, M_00008_00006, M_00008_00007, M_00009_00001, M_00009_00002, M_00009_00003, M_00009_00004, M_00009_00005, M_00009_00006, M_00010_00001, M_00010_00002, M_00010_00003, M_00010_00004, M_00010_00005, M_00011_00001, M_00011_00002, M_00011_00003, M_00011_00004, M_00012_00001, M_00012_00002, M_00012_00003, M_00013_00001, M_00013_00002, M_00014_00001]
+**CONSTRAINTS**
+div(M_00013_00002, 13, aux227)
+reify(gaceq(M_00004_00006,M_00005_00006), aux13)
+reify(gaceq(M_00007_00007,M_00006_00007), aux14)
+div(M_00002_00006, 13, aux15)
+div(M_00002_00004, 13, aux16)
+div(M_00002_00011, 13, aux17)
+reify(gaceq(M_00007_00008,M_00006_00009), aux18)
+reify(gaceq(M_00003_00009,M_00004_00008), aux19)
+div(M_00007_00001, 13, aux20)
+div(M_00007_00008, 13, aux21)
+reify(gaceq(M_00004_00007,M_00005_00007), aux22)
+div(M_00010_00005, 13, aux23)
+div(M_00010_00001, 13, aux24)
+div(M_00010_00003, 13, aux25)
+reify(gaceq(M_00008_00005,M_00009_00005), aux26)
+div(M_00012_00002, 13, aux27)
+div(M_00002_00010, 13, aux28)
+reify(gaceq(M_00002_00007,M_00003_00006), aux29)
+reify(gaceq(M_00005_00007,M_00006_00006), aux30)
+div(M_00002_00005, 13, aux31)
+div(M_00002_00007, 13, 1)
+div(M_00002_00008, 13, aux33)
+reify(gaceq(M_00010_00005,M_00011_00004), aux34)
+reify(gaceq(M_00010_00003,M_00009_00003), aux35)
+reify(gaceq(M_00002_00008,M_00003_00008), aux36)
+reify(gaceq(M_00007_00001,M_00008_00001), aux37)
+reify(gaceq(M_00004_00005,M_00005_00004), aux38)
+reify(gaceq(M_00010_00004,M_00009_00005), aux39)
+reify(gaceq(M_00005_00001,M_00006_00001), aux40)
+reify(gaceq(M_00010_00005,M_00009_00005), aux41)
+reify(gaceq(M_00010_00002,M_00009_00003), aux42)
+reify(gaceq(M_00003_00002,M_00004_00002), aux43)
+reify(gaceq(M_00004_00006,M_00005_00005), aux44)
+reify(gaceq(M_00010_00001,M_00009_00001), aux45)
+reify(gaceq(M_00004_00001,M_00005_00001), aux46)
+div(M_00004_00009, 13, aux47)
+div(M_00004_00003, 13, aux48)
+div(M_00004_00002, 13, aux49)
+div(M_00004_00010, 13, aux50)
+reify(gaceq(M_00007_00007,M_00006_00008), aux51)
+reify(gaceq(M_00002_00010,M_00003_00009), aux52)
+reify(gaceq(M_00007_00002,M_00008_00002), aux53)
+reify(gaceq(M_00004_00002,M_00005_00002), aux54)
+reify(gaceq(M_00010_00001,M_00011_00001), aux55)
+reify(gaceq(M_00003_00008,M_00004_00007), aux56)
+reify(gaceq(M_00008_00002,M_00009_00002), aux57)
+reify(gaceq(M_00004_00010,M_00005_00009), aux58)
+div(M_00002_00009, 13, 3)
+reify(gaceq(M_00004_00008,M_00005_00008), aux60)
+reify(gaceq(M_00011_00003,M_00012_00002), aux61)
+reify(gaceq(M_00011_00003,M_00012_00003), aux62)
+reify(gaceq(M_00002_00009,M_00003_00008), aux63)
+reify(gaceq(M_00007_00006,M_00008_00005), aux64)
+reify(gaceq(M_00008_00004,M_00009_00003), aux65)
+reify(gaceq(M_00003_00007,M_00004_00006), aux66)
+reify(gaceq(M_00003_00009,M_00004_00009), aux67)
+reify(gaceq(M_00003_00005,M_00004_00004), aux68)
+reify(gaceq(M_00011_00002,M_00012_00002), aux69)
+reify(gaceq(M_00011_00001,M_00012_00001), aux70)
+reify(gaceq(M_00011_00004,M_00012_00003), aux71)
+reify(gaceq(M_00005_00008,M_00006_00008), aux72)
+div(M_00008_00004, 13, aux73)
+reify(gaceq(M_00003_00011,M_00004_00010), aux74)
+reify(gaceq(M_00010_00004,M_00011_00003), aux75)
+div(M_00003_00012, 13, aux76)
+div(M_00003_00002, 13, 2)
+div(M_00005_00001, 13, aux78)
+div(M_00005_00010, 13, aux79)
+reify(gaceq(M_00003_00004,M_00004_00004), aux80)
+reify(gaceq(M_00007_00001,M_00006_00001), aux81)
+div(M_00008_00001, 13, aux82)
+div(M_00008_00007, 13, aux83)
+reify(gaceq(M_00003_00008,M_00004_00008), aux84)
+div(M_00006_00008, 13, aux85)
+div(M_00006_00007, 13, aux86)
+div(M_00006_00003, 13, aux87)
+div(M_00006_00002, 13, aux88)
+reify(gaceq(M_00003_00012,M_00004_00011), aux89)
+reify(gaceq(M_00005_00002,M_00006_00002), aux90)
+reify(gaceq(M_00005_00009,M_00006_00008), aux91)
+reify(gaceq(M_00010_00003,M_00011_00002), aux92)
+reify(gaceq(M_00010_00004,M_00011_00004), aux93)
+reify(gaceq(M_00005_00010,M_00006_00009), aux94)
+reify(gaceq(M_00010_00002,M_00011_00002), aux95)
+reify(gaceq(M_00010_00003,M_00011_00003), aux96)
+reify(gaceq(M_00010_00004,M_00009_00004), aux97)
+reify(gaceq(M_00004_00004,M_00005_00003), aux98)
+reify(gaceq(M_00002_00005,M_00003_00004), aux99)
+reify(gaceq(M_00002_00006,M_00003_00005), aux100)
+reify(gaceq(M_00002_00010,M_00003_00010), aux101)
+reify(gaceq(M_00004_00007,M_00005_00006), aux102)
+reify(gaceq(M_00007_00003,M_00006_00003), aux103)
+reify(gaceq(M_00005_00003,M_00006_00003), aux104)
+div(M_00009_00005, 13, aux105)
+div(M_00009_00003, 13, aux106)
+div(M_00009_00004, 13, aux107)
+div(M_00009_00002, 13, aux108)
+reify(gaceq(M_00007_00006,M_00006_00007), aux109)
+reify(gaceq(M_00007_00003,M_00008_00002), aux110)
+reify(gaceq(M_00007_00007,M_00008_00007), aux111)
+div(M_00011_00001, 13, aux112)
+div(M_00011_00002, 13, aux113)
+div(M_00011_00003, 13, aux114)
+div(M_00011_00004, 13, aux115)
+reify(gaceq(M_00003_00006,M_00004_00005), aux116)
+reify(gaceq(M_00008_00006,M_00009_00006), aux117)
+reify(gaceq(M_00008_00003,M_00009_00002), aux118)
+reify(gaceq(M_00005_00008,M_00006_00007), aux119)
+reify(gaceq(M_00010_00003,M_00009_00004), aux120)
+div(M_00006_00004, 13, aux121)
+div(M_00006_00005, 13, aux122)
+div(M_00006_00006, 13, aux123)
+div(M_00006_00001, 13, aux124)
+div(M_00006_00009, 13, aux125)
+reify(gaceq(M_00003_00007,M_00004_00007), aux126)
+div(M_00003_00010, 13, aux127)
+div(M_00003_00011, 13, aux128)
+div(M_00003_00003, 13, aux129)
+div(M_00003_00004, 13, aux130)
+reify(gaceq(M_00005_00005,M_00006_00004), aux131)
+reify(gaceq(M_00002_00009,M_00003_00009), aux132)
+reify(gaceq(M_00003_00005,M_00004_00005), aux133)
+reify(gaceq(M_00010_00002,M_00009_00002), aux134)
+reify(gaceq(M_00003_00011,M_00004_00011), aux135)
+reify(gaceq(M_00003_00003,M_00004_00002), aux136)
+reify(gaceq(M_00004_00005,M_00005_00005), aux137)
+reify(gaceq(M_00005_00003,M_00006_00002), aux138)
+reify(gaceq(M_00005_00009,M_00006_00009), aux139)
+div(M_00010_00004, 13, aux140)
+div(M_00010_00002, 13, aux141)
+reify(gaceq(M_00005_00006,M_00006_00006), aux142)
+reify(gaceq(M_00008_00003,M_00009_00003), aux143)
+div(M_00005_00009, 13, aux144)
+div(M_00005_00008, 13, aux145)
+div(M_00005_00002, 13, aux146)
+div(M_00005_00003, 13, aux147)
+reify(gaceq(M_00002_00012,M_00003_00011), aux148)
+reify(gaceq(M_00004_00010,M_00005_00010), aux149)
+reify(gaceq(M_00004_00003,M_00005_00002), aux150)
+reify(gaceq(M_00005_00005,M_00006_00005), aux151)
+reify(gaceq(M_00005_00007,M_00006_00007), aux152)
+reify(gaceq(M_00004_00008,M_00005_00007), aux153)
+reify(gaceq(M_00007_00003,M_00008_00003), aux154)
+div(M_00007_00002, 13, aux155)
+div(M_00007_00003, 13, aux156)
+div(M_00007_00006, 13, aux157)
+div(M_00007_00007, 13, aux158)
+reify(gaceq(M_00004_00009,M_00005_00008), aux159)
+reify(gaceq(M_00008_00004,M_00009_00004), aux160)
+reify(gaceq(M_00008_00005,M_00009_00004), aux161)
+reify(gaceq(M_00003_00010,M_00004_00010), aux162)
+div(M_00007_00004, 13, aux163)
+div(M_00007_00005, 13, aux164)
+reify(gaceq(M_00004_00011,M_00005_00010), aux165)
+reify(gaceq(M_00007_00004,M_00006_00004), aux166)
+reify(gaceq(M_00003_00004,M_00004_00003), aux167)
+reify(gaceq(M_00007_00004,M_00008_00003), aux168)
+reify(gaceq(M_00010_00005,M_00009_00006), aux169)
+reify(gaceq(M_00005_00004,M_00006_00003), aux170)
+div(M_00004_00007, 13, aux171)
+div(M_00004_00008, 13, aux172)
+div(M_00004_00004, 13, aux173)
+div(M_00004_00005, 13, aux174)
+div(M_00004_00006, 13, aux175)
+reify(gaceq(M_00004_00004,M_00005_00004), aux176)
+reify(gaceq(M_00002_00008,M_00003_00007), aux177)
+reify(gaceq(M_00005_00004,M_00006_00004), aux178)
+reify(gaceq(M_00002_00011,M_00003_00010), aux179)
+reify(gaceq(M_00008_00006,M_00009_00005), aux180)
+reify(gaceq(M_00007_00003,M_00006_00004), aux181)
+reify(gaceq(M_00007_00004,M_00008_00004), aux182)
+reify(gaceq(M_00007_00005,M_00006_00005), aux183)
+div(M_00008_00003, 13, aux184)
+div(M_00008_00005, 13, aux185)
+div(M_00008_00006, 13, aux186)
+div(M_00008_00002, 13, aux187)
+reify(gaceq(M_00007_00002,M_00006_00002), aux188)
+reify(gaceq(M_00007_00008,M_00006_00008), aux189)
+reify(gaceq(M_00007_00002,M_00006_00003), aux190)
+reify(gaceq(M_00007_00006,M_00008_00006), aux191)
+reify(gaceq(M_00005_00006,M_00006_00005), aux192)
+reify(gaceq(M_00002_00007,M_00003_00007), aux193)
+div(M_00003_00009, 13, aux194)
+div(M_00003_00007, 13, aux195)
+div(M_00003_00008, 13, aux196)
+div(M_00003_00006, 13, aux197)
+div(M_00003_00005, 13, aux198)
+reify(gaceq(M_00007_00007,M_00008_00006), aux199)
+reify(gaceq(M_00002_00006,M_00003_00006), aux200)
+reify(gaceq(M_00008_00001,M_00009_00001), aux201)
+reify(gaceq(M_00007_00006,M_00006_00006), aux202)
+reify(gaceq(M_00004_00003,M_00005_00003), aux203)
+reify(gaceq(M_00007_00005,M_00008_00004), aux204)
+reify(gaceq(M_00007_00005,M_00008_00005), aux205)
+reify(gaceq(M_00002_00011,M_00003_00011), aux206)
+reify(gaceq(M_00012_00001,M_00013_00001), aux207)
+reify(gaceq(M_00012_00003,M_00013_00002), aux208)
+div(M_00005_00004, 13, aux209)
+div(M_00005_00005, 13, aux210)
+div(M_00005_00006, 13, aux211)
+reify(gaceq(M_00002_00004,M_00003_00004), aux212)
+div(M_00005_00007, 13, aux213)
+reify(gaceq(M_00007_00008,M_00008_00007), aux214)
+reify(gaceq(M_00002_00005,M_00003_00005), aux215)
+reify(gaceq(M_00007_00005,M_00006_00006), aux216)
+div(M_00009_00006, 13, aux217)
+div(M_00009_00001, 13, aux218)
+reify(gaceq(M_00008_00007,M_00009_00006), aux219)
+div(M_00004_00001, 13, aux220)
+div(M_00004_00011, 13, aux221)
+reify(gaceq(M_00004_00009,M_00005_00009), aux222)
+reify(gaceq(M_00007_00004,M_00006_00005), aux223)
+reify(gaceq(M_00003_00010,M_00004_00009), aux224)
+reify(gaceq(M_00003_00003,M_00004_00003), aux225)
+reify(gaceq(M_00003_00006,M_00004_00006), aux226)
+gccweak([M_00002_00004, M_00002_00005, M_00002_00006, M_00002_00007, M_00002_00008, M_00002_00009, M_00002_00010, M_00002_00011, M_00002_00012],[-1],[0])
+gccweak([M_00003_00002, M_00003_00003, M_00003_00004, M_00003_00005, M_00003_00006, M_00003_00007, M_00003_00008, M_00003_00009, M_00003_00010, M_00003_00011, M_00003_00012],[-1],[0])
+gccweak([M_00004_00001, M_00004_00002, M_00004_00003, M_00004_00004, M_00004_00005, M_00004_00006, M_00004_00007, M_00004_00008, M_00004_00009, M_00004_00010, M_00004_00011],[-1],[0])
+gccweak([M_00005_00001, M_00005_00002, M_00005_00003, M_00005_00004, M_00005_00005, M_00005_00006, M_00005_00007, M_00005_00008, M_00005_00009, M_00005_00010],[-1],[0])
+gccweak([M_00006_00001, M_00006_00002, M_00006_00003, M_00006_00004, M_00006_00005, M_00006_00006, M_00006_00007, M_00006_00008, M_00006_00009],[-1],[0])
+gccweak([M_00007_00001, M_00007_00002, M_00007_00003, M_00007_00004, M_00007_00005, M_00007_00006, M_00007_00007, M_00007_00008],[-1],[0])
+gccweak([M_00008_00001, M_00008_00002, M_00008_00003, M_00008_00004, M_00008_00005, M_00008_00006, M_00008_00007],[-1],[0])
+gccweak([M_00009_00001, M_00009_00002, M_00009_00003, M_00009_00004, M_00009_00005, M_00009_00006],[-1],[0])
+gccweak([M_00010_00001, M_00010_00002, M_00010_00003, M_00010_00004, M_00010_00005],[-1],[0])
+gccweak([M_00011_00001, M_00011_00002, M_00011_00003, M_00011_00004],[-1],[0])
+gccweak([M_00012_00001, M_00012_00002, M_00012_00003],[-1],[0])
+gccweak([M_00013_00001, M_00013_00002],[-1],[0])
+gccweak([M_00014_00001],[-1],[0])
+watched-or({watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,18),w-literal(M_00002_00006,33),w-literal(M_00002_00007,21),w-literal(M_00002_00008,24),w-literal(M_00002_00009,41),w-literal(M_00002_00010,7),w-literal(M_00002_00012,0),w-literal(M_00002_00011,42)}),watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,18),w-literal(M_00002_00006,33),w-literal(M_00002_00007,21),w-literal(M_00002_00008,24),w-literal(M_00002_00009,41),w-literal(M_00002_00011,0),w-literal(M_00002_00010,42),w-literal(M_00002_00012,7)}),watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,18),w-literal(M_00002_00006,33),w-literal(M_00002_00007,21),w-literal(M_00002_00008,24),w-literal(M_00002_00009,41),w-literal(M_00002_00010,46),w-literal(M_00002_00012,7),w-literal(M_00002_00011,42)}),watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,18),w-literal(M_00002_00006,33),w-literal(M_00002_00007,21),w-literal(M_00002_00008,24),w-literal(M_00002_00009,46),w-literal(M_00002_00011,0),w-literal(M_00002_00010,42),w-literal(M_00002_00012,7)}),watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,18),w-literal(M_00002_00006,33),w-literal(M_00002_00007,24),w-literal(M_00002_00008,41),w-literal(M_00002_00009,46),w-literal(M_00002_00011,0),w-literal(M_00002_00010,42),w-literal(M_00002_00012,7)}),watched-and({w-literal(M_00002_00004,18),w-literal(M_00002_00005,33),w-literal(M_00002_00006,21),w-literal(M_00002_00007,24),w-literal(M_00002_00008,41),w-literal(M_00002_00009,46),w-literal(M_00002_00011,0),w-literal(M_00002_00010,42),w-literal(M_00002_00012,7)}),watched-and({w-literal(M_00002_00004,31),w-literal(M_00002_00005,24),w-literal(M_00002_00006,33),w-literal(M_00002_00007,21),w-literal(M_00002_00008,41),w-literal(M_00002_00009,46),w-literal(M_00002_00011,0),w-literal(M_00002_00010,42),w-literal(M_00002_00012,7)})})
+watched-or({watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux99,1),w-literal(aux100,1),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux228,13,0),gaceq(aux16,aux31)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux100,1),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux229,13,0),gaceq(aux31,aux15)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux230,13,0),w-literal(aux33,1)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux36,1),w-literal(aux132,1),gaceq(M_00002_00010,M_00003_00007),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux231,13,0),w-literal(aux28,1)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00012,13),watched-or({w-literal(aux16,1),modulo(aux232,13,0)}),gaceq(M_00002_00004,M_00003_00003),w-literal(aux99,1),w-literal(aux100,1),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1)}),watched-and({w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),watched-or({w-literal(aux31,2),modulo(aux233,13,0)}),w-literal(aux212,1),gaceq(M_00002_00005,M_00003_00002),w-literal(aux100,1),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1)}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux234,13,0),w-literal(aux15,1)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux215,1),w-literal(aux200,1),gaceq(M_00002_00007,M_00003_00004),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux235,13,0),w-literal(aux16,1)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux193,1),w-literal(aux36,1),gaceq(M_00002_00009,M_00003_00006),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),modulo(aux236,13,0)}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),modulo(aux237,13,0),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux132,1),w-literal(aux101,1),w-literal(aux206,1)}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux200,1),w-literal(aux193,1),gaceq(M_00002_00008,M_00003_00005),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux238,13,0),gaceq(aux31,aux33)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux101,1),w-literal(aux206,1),gaceq(M_00002_00012,M_00003_00009),modulo(aux239,13,0)}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00012,13),watched-or({w-literal(aux15,1),modulo(aux240,13,0)}),w-literal(aux212,1),w-literal(aux215,1),gaceq(M_00002_00006,M_00003_00003),w-literal(aux29,1),w-literal(aux177,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1)}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux241,13,0),w-literal(aux28,3)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux132,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux242,13,0),gaceq(aux28,aux17)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux132,1),w-literal(aux101,1),w-literal(aux148,1),watched-or({modulo(aux243,13,0),div(M_00002_00012, 13, aux17)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux63,1),w-literal(aux52,1),w-literal(aux179,1),w-literal(aux148,1),watched-or({modulo(aux244,13,0),w-literal(aux33,3)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00012,13),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux132,1),w-literal(aux101,1),gaceq(M_00002_00011,M_00003_00008),w-literal(aux148,1),watched-or({modulo(aux245,13,0),gaceq(aux33,aux17)})}),watched-and({w-literal(M_00003_00002,26),w-literal(M_00003_00003,17),w-literal(M_00003_00010,13),watched-or({w-literal(aux28,1),modulo(aux246,13,0)}),w-literal(aux212,1),w-literal(aux215,1),w-literal(aux200,1),w-literal(aux193,1),w-literal(aux36,1),w-literal(aux132,1),w-literal(aux206,1),gaceq(M_00002_00012,M_00003_00012)})})
+watched-or({watched-and({w-literal(aux225,1),w-literal(aux80,1),gaceq(M_00003_00005,M_00004_00002),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux247,13,0),w-literal(aux198,2)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux133,1),w-literal(aux226,1),gaceq(M_00003_00007,M_00004_00004),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux248,13,0),gaceq(aux130,aux195)}),w-literal(M_00004_00001,6)}),watched-and({gaceq(M_00003_00002,M_00004_00001),w-literal(aux136,1),w-literal(aux167,1),w-literal(aux68,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),modulo(aux249,13,0)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux250,13,0),gaceq(aux195,aux196)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux136,1),w-literal(aux167,1),w-literal(aux68,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux251,13,0),w-literal(aux129,2)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux226,1),w-literal(aux126,1),gaceq(M_00003_00008,M_00004_00005),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux252,13,0),gaceq(aux198,aux196)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux68,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux253,13,0),gaceq(aux130,aux198)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux167,1),w-literal(aux68,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux254,13,0),gaceq(aux129,aux130)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux126,1),w-literal(aux84,1),gaceq(M_00003_00009,M_00004_00006),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux255,13,0),gaceq(aux197,aux194)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux84,1),w-literal(aux67,1),gaceq(M_00003_00010,M_00004_00007),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux256,13,0),gaceq(aux195,aux127)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux84,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux257,13,0),gaceq(aux194,aux127)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux84,1),w-literal(aux67,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux258,13,0),gaceq(aux127,aux128)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux84,1),w-literal(aux162,1),w-literal(aux135,1),gaceq(M_00003_00012,M_00004_00009),watched-or({modulo(aux259,13,0),gaceq(aux194,aux76)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux84,1),w-literal(aux67,1),w-literal(aux162,1),w-literal(aux89,1),watched-or({modulo(aux260,13,0),gaceq(aux128,aux76)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux80,1),w-literal(aux133,1),gaceq(M_00003_00006,M_00004_00003),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux261,13,0),gaceq(aux129,aux197)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux262,13,0),gaceq(aux198,aux197)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux84,1),w-literal(aux67,1),w-literal(aux162,1),w-literal(aux135,1),modulo(aux263,13,0),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux264,13,0),gaceq(aux197,aux195)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),watched-or({modulo(aux265,13,0),gaceq(aux196,aux194)}),w-literal(M_00004_00001,6)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),gaceq(M_00003_00004,M_00004_00001),w-literal(aux68,1),w-literal(aux116,1),w-literal(aux66,1),w-literal(aux56,1),w-literal(aux19,1),w-literal(aux224,1),w-literal(aux74,1),w-literal(aux89,1),modulo(aux266,13,0)}),watched-and({w-literal(aux43,1),w-literal(aux225,1),w-literal(aux80,1),w-literal(aux133,1),w-literal(aux226,1),w-literal(aux126,1),w-literal(aux67,1),w-literal(aux162,1),gaceq(M_00003_00011,M_00004_00008),w-literal(aux89,1),watched-or({modulo(aux267,13,0),gaceq(aux196,aux128)}),w-literal(M_00004_00001,6)})})
+watched-or({watched-and({w-literal(aux46,1),w-literal(aux203,1),w-literal(aux176,1),gaceq(M_00004_00005,M_00005_00002),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux49,aux174),modulo(aux268,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux174,aux175),modulo(aux269,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux176,1),w-literal(aux137,1),gaceq(M_00004_00006,M_00005_00003),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux48,aux175),modulo(aux270,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux150,1),w-literal(aux98,1),w-literal(aux38,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux49,aux48),modulo(aux271,13,0)})}),watched-and({gaceq(M_00004_00002,M_00005_00001),w-literal(aux150,1),w-literal(aux98,1),w-literal(aux38,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux220,aux49),modulo(aux272,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux137,1),w-literal(aux13,1),gaceq(M_00004_00007,M_00005_00004),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux173,aux171),modulo(aux273,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux13,1),w-literal(aux22,1),gaceq(M_00004_00008,M_00005_00005),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux174,aux172),modulo(aux274,13,0)})}),watched-and({modulo(aux275,13,0),w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux22,1),w-literal(aux60,1),w-literal(aux222,1),w-literal(aux149,1)}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux22,1),w-literal(aux60,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux47,aux50),modulo(aux276,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux22,1),w-literal(aux60,1),w-literal(aux222,1),w-literal(aux165,1),watched-or({gaceq(aux50,aux221),modulo(aux277,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux22,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux172,aux47),modulo(aux278,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux22,1),w-literal(aux222,1),w-literal(aux149,1),gaceq(M_00004_00011,M_00005_00008),watched-or({gaceq(aux172,aux221),modulo(aux279,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux171,aux172),modulo(aux280,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux13,1),w-literal(aux60,1),w-literal(aux222,1),gaceq(M_00004_00010,M_00005_00007),w-literal(aux165,1),watched-or({gaceq(aux171,aux50),modulo(aux281,13,0)})}),watched-and({w-literal(aux54,1),w-literal(aux203,1),gaceq(M_00004_00004,M_00005_00001),w-literal(aux38,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux220,aux173),modulo(aux282,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux98,1),w-literal(aux38,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux48,aux173),modulo(aux283,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux38,1),w-literal(aux44,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux173,aux174),modulo(aux284,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux102,1),w-literal(aux153,1),w-literal(aux159,1),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux175,aux171),modulo(aux285,13,0)})}),watched-and({w-literal(aux46,1),w-literal(aux54,1),w-literal(aux203,1),w-literal(aux176,1),w-literal(aux137,1),w-literal(aux22,1),w-literal(aux60,1),gaceq(M_00004_00009,M_00005_00006),w-literal(aux58,1),w-literal(aux165,1),watched-or({gaceq(aux175,aux47),modulo(aux286,13,0)})})})
+watched-or({watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux170,1),w-literal(aux131,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux287,13,0),gaceq(aux147,aux209)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux288,13,0),gaceq(aux210,aux211)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux142,1),w-literal(aux152,1),gaceq(M_00005_00008,M_00006_00005),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux289,13,0),gaceq(aux210,aux145)})}),watched-and({w-literal(aux90,1),w-literal(aux104,1),gaceq(M_00005_00004,M_00006_00001),w-literal(aux131,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux290,13,0),gaceq(aux78,aux209)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux131,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux291,13,0),gaceq(aux209,aux210)})}),watched-and({w-literal(aux40,1),w-literal(aux104,1),w-literal(aux178,1),gaceq(M_00005_00005,M_00006_00002),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux292,13,0),gaceq(aux146,aux210)})}),watched-and({gaceq(M_00005_00002,M_00006_00001),w-literal(aux138,1),w-literal(aux170,1),w-literal(aux131,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux293,13,0),gaceq(aux78,aux146)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux178,1),w-literal(aux151,1),gaceq(M_00005_00006,M_00006_00003),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux294,13,0),gaceq(aux147,aux211)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux151,1),w-literal(aux142,1),gaceq(M_00005_00007,M_00006_00004),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux295,13,0),gaceq(aux209,aux213)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux72,1),w-literal(aux139,1),modulo(aux296,13,0)}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux142,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux297,13,0),gaceq(aux213,aux145)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux298,13,0),gaceq(aux145,aux144)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux142,1),w-literal(aux72,1),w-literal(aux139,1),gaceq(M_00005_00010,M_00006_00007),watched-or({modulo(aux299,13,0),gaceq(aux213,aux79)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux72,1),w-literal(aux94,1),watched-or({modulo(aux300,13,0),gaceq(aux144,aux79)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux301,13,0),gaceq(aux211,aux213)})}),watched-and({w-literal(aux40,1),w-literal(aux90,1),w-literal(aux104,1),w-literal(aux178,1),w-literal(aux151,1),w-literal(aux152,1),w-literal(aux72,1),gaceq(M_00005_00009,M_00006_00006),w-literal(aux94,1),watched-or({modulo(aux302,13,0),gaceq(aux211,aux144)})}),watched-and({w-literal(aux40,1),w-literal(aux138,1),w-literal(aux170,1),w-literal(aux131,1),w-literal(aux192,1),w-literal(aux30,1),w-literal(aux119,1),w-literal(aux91,1),w-literal(aux94,1),watched-or({modulo(aux303,13,0),gaceq(aux146,aux147)})})})
+watched-or({watched-and({w-literal(aux81,1),w-literal(aux190,1),w-literal(aux181,1),w-literal(aux223,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux88,aux87),modulo(aux304,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),gaceq(M_00007_00003,M_00006_00006),w-literal(aux166,1),w-literal(aux183,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux87,aux123),modulo(aux305,13,0)})}),watched-and({gaceq(M_00007_00001,M_00006_00004),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux223,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux124,aux121),modulo(aux306,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux183,1),w-literal(aux202,1),w-literal(aux14,1),w-literal(aux189,1),modulo(aux307,13,0)}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux183,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux123,aux86),modulo(aux308,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux183,1),w-literal(aux202,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux86,aux85),modulo(aux309,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux183,1),gaceq(M_00007_00006,M_00006_00009),w-literal(aux14,1),w-literal(aux189,1),watched-or({gaceq(aux123,aux125),modulo(aux310,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux183,1),w-literal(aux202,1),w-literal(aux14,1),w-literal(aux18,1),watched-or({gaceq(aux85,aux125),modulo(aux311,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux122,aux123),modulo(aux312,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux166,1),gaceq(M_00007_00005,M_00006_00008),w-literal(aux202,1),w-literal(aux14,1),w-literal(aux18,1),watched-or({gaceq(aux122,aux85),modulo(aux313,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),w-literal(aux223,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux121,aux122),modulo(aux314,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux103,1),gaceq(M_00007_00004,M_00006_00007),w-literal(aux183,1),w-literal(aux202,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux121,aux86),modulo(aux315,13,0)})}),watched-and({gaceq(M_00007_00001,M_00006_00002),w-literal(aux190,1),w-literal(aux181,1),w-literal(aux223,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux124,aux88),modulo(aux316,13,0)})}),watched-and({w-literal(aux81,1),w-literal(aux188,1),w-literal(aux181,1),w-literal(aux223,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux87,aux121),modulo(aux317,13,0)})}),watched-and({w-literal(aux81,1),gaceq(M_00007_00002,M_00006_00005),w-literal(aux103,1),w-literal(aux166,1),w-literal(aux216,1),w-literal(aux109,1),w-literal(aux51,1),w-literal(aux18,1),watched-or({gaceq(aux88,aux122),modulo(aux318,13,0)})})})
+watched-or({watched-and({watched-or({modulo(aux319,13,0),gaceq(aux158,aux21)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux182,1),w-literal(aux205,1),w-literal(aux191,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux320,13,0),gaceq(aux164,aux21)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux182,1),w-literal(aux191,1),w-literal(aux111,1),gaceq(M_00007_00008,M_00008_00005)}),watched-and({modulo(aux321,13,0),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux182,1),w-literal(aux205,1),w-literal(aux191,1),w-literal(aux111,1)}),watched-and({watched-or({modulo(aux322,13,0),gaceq(aux20,aux163)}),w-literal(aux53,1),w-literal(aux154,1),gaceq(M_00007_00004,M_00008_00001),w-literal(aux204,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux323,13,0),gaceq(aux156,aux163)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux168,1),w-literal(aux204,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux324,13,0),gaceq(aux155,aux156)}),w-literal(aux37,1),w-literal(aux110,1),w-literal(aux168,1),w-literal(aux204,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux325,13,0),gaceq(aux163,aux164)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux204,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux326,13,0),gaceq(aux164,aux157)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux182,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux327,13,0),gaceq(aux156,aux157)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux182,1),w-literal(aux205,1),gaceq(M_00007_00006,M_00008_00003),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux328,13,0),gaceq(aux20,aux155)}),gaceq(M_00007_00002,M_00008_00001),w-literal(aux110,1),w-literal(aux168,1),w-literal(aux204,1),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux329,13,0),gaceq(aux155,aux164)}),w-literal(aux37,1),w-literal(aux154,1),w-literal(aux182,1),gaceq(M_00007_00005,M_00008_00002),w-literal(aux64,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux330,13,0),gaceq(aux157,aux158)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux182,1),w-literal(aux205,1),w-literal(aux199,1),w-literal(aux214,1)}),watched-and({watched-or({modulo(aux331,13,0),gaceq(aux163,aux158)}),w-literal(aux37,1),w-literal(aux53,1),w-literal(aux154,1),w-literal(aux205,1),w-literal(aux191,1),gaceq(M_00007_00007,M_00008_00004),w-literal(aux214,1)})})
+watched-or({watched-and({w-literal(aux201,1),w-literal(aux57,1),w-literal(aux143,1),w-literal(aux160,1),w-literal(aux26,1),w-literal(aux117,1),modulo(aux332,13,0)}),watched-and({watched-or({gaceq(aux187,aux184),modulo(aux333,13,0)}),w-literal(aux201,1),w-literal(aux118,1),w-literal(aux65,1),w-literal(aux161,1),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux184,aux73),modulo(aux334,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux65,1),w-literal(aux161,1),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux73,aux185),modulo(aux335,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux143,1),w-literal(aux161,1),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux82,aux187),modulo(aux336,13,0)}),gaceq(M_00008_00002,M_00009_00001),w-literal(aux118,1),w-literal(aux65,1),w-literal(aux161,1),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux185,aux186),modulo(aux337,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux143,1),w-literal(aux160,1),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux186,aux83),modulo(aux338,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux143,1),w-literal(aux160,1),w-literal(aux26,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux187,aux185),modulo(aux339,13,0)}),w-literal(aux201,1),w-literal(aux143,1),w-literal(aux160,1),gaceq(M_00008_00005,M_00009_00002),w-literal(aux180,1),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux184,aux186),modulo(aux340,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux160,1),w-literal(aux26,1),gaceq(M_00008_00006,M_00009_00003),w-literal(aux219,1)}),watched-and({watched-or({gaceq(aux73,aux83),modulo(aux341,13,0)}),w-literal(aux201,1),w-literal(aux57,1),w-literal(aux143,1),w-literal(aux26,1),w-literal(aux117,1),gaceq(M_00008_00007,M_00009_00004)}),watched-and({watched-or({gaceq(aux82,aux73),modulo(aux342,13,0)}),w-literal(aux57,1),w-literal(aux143,1),gaceq(M_00008_00004,M_00009_00001),w-literal(aux161,1),w-literal(aux180,1),w-literal(aux219,1)})})
+watched-or({watched-and({watched-or({modulo(aux343,13,0),gaceq(aux107,aux105)}),w-literal(aux45,1),w-literal(aux134,1),w-literal(aux35,1),w-literal(aux39,1),w-literal(aux169,1)}),watched-and({watched-or({modulo(aux344,13,0),gaceq(aux218,aux107)}),gaceq(M_00010_00001,M_00009_00004),w-literal(aux134,1),w-literal(aux35,1),w-literal(aux39,1),w-literal(aux169,1)}),watched-and({watched-or({modulo(aux345,13,0),gaceq(aux105,aux217)}),w-literal(aux45,1),w-literal(aux134,1),w-literal(aux35,1),w-literal(aux97,1),w-literal(aux169,1)}),watched-and({watched-or({modulo(aux346,13,0),gaceq(aux108,aux105)}),w-literal(aux45,1),gaceq(M_00010_00002,M_00009_00005),w-literal(aux35,1),w-literal(aux97,1),w-literal(aux169,1)}),watched-and({watched-or({modulo(aux347,13,0),gaceq(aux106,aux217)}),w-literal(aux45,1),w-literal(aux134,1),gaceq(M_00010_00003,M_00009_00006),w-literal(aux97,1),w-literal(aux41,1)}),watched-and({watched-or({modulo(aux348,13,0),gaceq(aux218,aux108)}),gaceq(M_00010_00001,M_00009_00002),w-literal(aux42,1),w-literal(aux120,1),w-literal(aux39,1),w-literal(aux169,1)}),watched-and({modulo(aux349,13,0),w-literal(aux45,1),w-literal(aux134,1),w-literal(aux35,1),w-literal(aux97,1),w-literal(aux41,1)}),watched-and({watched-or({modulo(aux350,13,0),gaceq(aux108,aux106)}),w-literal(aux45,1),w-literal(aux42,1),w-literal(aux120,1),w-literal(aux39,1),w-literal(aux169,1)}),watched-and({watched-or({modulo(aux351,13,0),gaceq(aux106,aux107)}),w-literal(aux45,1),w-literal(aux134,1),w-literal(aux120,1),w-literal(aux39,1),w-literal(aux169,1)})})
+watched-or({watched-and({w-literal(aux55,1),w-literal(aux95,1),w-literal(aux75,1),w-literal(aux34,1),watched-or({gaceq(aux25,aux140),modulo(aux352,13,0)})}),watched-and({w-literal(aux55,1),w-literal(aux95,1),w-literal(aux96,1),w-literal(aux34,1),watched-or({gaceq(aux140,aux23),modulo(aux353,13,0)})}),watched-and({w-literal(aux55,1),w-literal(aux92,1),w-literal(aux75,1),w-literal(aux34,1),watched-or({gaceq(aux141,aux25),modulo(aux354,13,0)})}),watched-and({w-literal(aux55,1),w-literal(aux96,1),w-literal(aux93,1),gaceq(M_00010_00005,M_00011_00002),watched-or({gaceq(aux141,aux23),modulo(aux355,13,0)})}),watched-and({gaceq(M_00010_00002,M_00011_00001),w-literal(aux92,1),w-literal(aux75,1),w-literal(aux34,1),watched-or({gaceq(aux24,aux141),modulo(aux356,13,0)})}),watched-and({w-literal(aux95,1),w-literal(aux96,1),gaceq(M_00010_00004,M_00011_00001),w-literal(aux34,1),watched-or({gaceq(aux24,aux140),modulo(aux357,13,0)})}),watched-and({w-literal(aux55,1),w-literal(aux95,1),w-literal(aux96,1),w-literal(aux93,1),modulo(aux358,13,0)})})
+watched-or({watched-and({watched-or({gaceq(aux113,aux114),modulo(aux359,13,0)}),w-literal(aux70,1),w-literal(aux61,1),w-literal(aux71,1)}),watched-and({watched-or({gaceq(aux114,aux115),modulo(aux360,13,0)}),w-literal(aux70,1),w-literal(aux69,1),w-literal(aux71,1)}),watched-and({modulo(aux361,13,0),w-literal(aux70,1),w-literal(aux69,1),w-literal(aux62,1)}),watched-and({watched-or({gaceq(aux112,aux113),modulo(aux362,13,0)}),gaceq(M_00011_00002,M_00012_00001),w-literal(aux61,1),w-literal(aux71,1)}),watched-and({watched-or({gaceq(aux112,aux115),modulo(aux363,13,0)}),w-literal(aux69,1),w-literal(aux62,1),gaceq(M_00011_00004,M_00012_00001)})})
+watched-or({watched-and({gaceq(M_00012_00002,M_00013_00001),w-literal(aux208,1),watched-or({div(M_00012_00001, 13, aux27),modulo(aux364,13,0)})}),watched-and({w-literal(aux207,1),w-literal(aux208,1),watched-or({div(M_00012_00003, 13, aux27),modulo(aux365,13,0)})}),watched-and({modulo(aux366,13,0),w-literal(aux207,1),gaceq(M_00012_00002,M_00013_00002)})})
+watched-or({watched-and({gaceq(M_00013_00001,M_00014_00001),modulo(aux367,13,0)}),watched-and({gaceq(M_00013_00002,M_00014_00001),watched-or({div(M_00013_00001, 13, aux227),modulo(aux368,13,0)})})})
+weightedsumleq([-1,1],[M_00002_00004,M_00002_00005],aux228)
+weightedsumgeq([-1,1],[M_00002_00004,M_00002_00005],aux228)
+weightedsumleq([-1,1],[M_00002_00005,M_00002_00006],aux229)
+weightedsumgeq([-1,1],[M_00002_00005,M_00002_00006],aux229)
+weightedsumleq([-1,1],[M_00002_00007,M_00002_00008],aux230)
+weightedsumgeq([-1,1],[M_00002_00007,M_00002_00008],aux230)
+weightedsumleq([-1,1],[M_00002_00007,M_00002_00010],aux231)
+weightedsumgeq([-1,1],[M_00002_00007,M_00002_00010],aux231)
+sumleq([M_00002_00004,-17],aux232)
+sumgeq([M_00002_00004,-17],aux232)
+sumleq([M_00002_00005,-26],aux233)
+sumgeq([M_00002_00005,-26],aux233)
+weightedsumleq([-1,1],[M_00002_00006,M_00002_00007],aux234)
+weightedsumgeq([-1,1],[M_00002_00006,M_00002_00007],aux234)
+weightedsumleq([-1,1],[M_00002_00004,M_00002_00007],aux235)
+weightedsumgeq([-1,1],[M_00002_00004,M_00002_00007],aux235)
+weightedsumleq([-1,1],[M_00002_00006,M_00002_00009],aux236)
+weightedsumgeq([-1,1],[M_00002_00006,M_00002_00009],aux236)
+weightedsumleq([-1,1],[M_00002_00012,13],aux237)
+weightedsumgeq([-1,1],[M_00002_00012,13],aux237)
+weightedsumleq([-1,1],[M_00002_00005,M_00002_00008],aux238)
+weightedsumgeq([-1,1],[M_00002_00005,M_00002_00008],aux238)
+weightedsumleq([-1,1],[M_00002_00009,M_00002_00012],aux239)
+weightedsumgeq([-1,1],[M_00002_00009,M_00002_00012],aux239)
+sumleq([M_00002_00006,-17],aux240)
+sumgeq([M_00002_00006,-17],aux240)
+weightedsumleq([-1,1],[M_00002_00009,M_00002_00010],aux241)
+weightedsumgeq([-1,1],[M_00002_00009,M_00002_00010],aux241)
+weightedsumleq([-1,1],[M_00002_00010,M_00002_00011],aux242)
+weightedsumgeq([-1,1],[M_00002_00010,M_00002_00011],aux242)
+weightedsumleq([-1,1],[M_00002_00011,M_00002_00012],aux243)
+weightedsumgeq([-1,1],[M_00002_00011,M_00002_00012],aux243)
+weightedsumleq([-1,1],[M_00002_00008,M_00002_00009],aux244)
+weightedsumgeq([-1,1],[M_00002_00008,M_00002_00009],aux244)
+weightedsumleq([-1,1],[M_00002_00008,M_00002_00011],aux245)
+weightedsumgeq([-1,1],[M_00002_00008,M_00002_00011],aux245)
+weightedsumleq([-1,1],[M_00002_00010,13],aux246)
+weightedsumgeq([-1,1],[M_00002_00010,13],aux246)
+weightedsumleq([-1,1],[M_00003_00002,M_00003_00005],aux247)
+weightedsumgeq([-1,1],[M_00003_00002,M_00003_00005],aux247)
+weightedsumleq([-1,1],[M_00003_00004,M_00003_00007],aux248)
+weightedsumgeq([-1,1],[M_00003_00004,M_00003_00007],aux248)
+sumleq([M_00003_00002,-6],aux249)
+sumgeq([M_00003_00002,-6],aux249)
+weightedsumleq([-1,1],[M_00003_00007,M_00003_00008],aux250)
+weightedsumgeq([-1,1],[M_00003_00007,M_00003_00008],aux250)
+weightedsumleq([-1,1],[M_00003_00002,M_00003_00003],aux251)
+weightedsumgeq([-1,1],[M_00003_00002,M_00003_00003],aux251)
+weightedsumleq([-1,1],[M_00003_00005,M_00003_00008],aux252)
+weightedsumgeq([-1,1],[M_00003_00005,M_00003_00008],aux252)
+weightedsumleq([-1,1],[M_00003_00004,M_00003_00005],aux253)
+weightedsumgeq([-1,1],[M_00003_00004,M_00003_00005],aux253)
+weightedsumleq([-1,1],[M_00003_00003,M_00003_00004],aux254)
+weightedsumgeq([-1,1],[M_00003_00003,M_00003_00004],aux254)
+weightedsumleq([-1,1],[M_00003_00006,M_00003_00009],aux255)
+weightedsumgeq([-1,1],[M_00003_00006,M_00003_00009],aux255)
+weightedsumleq([-1,1],[M_00003_00007,M_00003_00010],aux256)
+weightedsumgeq([-1,1],[M_00003_00007,M_00003_00010],aux256)
+weightedsumleq([-1,1],[M_00003_00009,M_00003_00010],aux257)
+weightedsumgeq([-1,1],[M_00003_00009,M_00003_00010],aux257)
+weightedsumleq([-1,1],[M_00003_00010,M_00003_00011],aux258)
+weightedsumgeq([-1,1],[M_00003_00010,M_00003_00011],aux258)
+weightedsumleq([-1,1],[M_00003_00009,M_00003_00012],aux259)
+weightedsumgeq([-1,1],[M_00003_00009,M_00003_00012],aux259)
+weightedsumleq([-1,1],[M_00003_00011,M_00003_00012],aux260)
+weightedsumgeq([-1,1],[M_00003_00011,M_00003_00012],aux260)
+weightedsumleq([-1,1],[M_00003_00003,M_00003_00006],aux261)
+weightedsumgeq([-1,1],[M_00003_00003,M_00003_00006],aux261)
+weightedsumleq([-1,1],[M_00003_00005,M_00003_00006],aux262)
+weightedsumgeq([-1,1],[M_00003_00005,M_00003_00006],aux262)
+weightedsumleq([-1,1],[M_00003_00012,-1],aux263)
+weightedsumgeq([-1,1],[M_00003_00012,-1],aux263)
+weightedsumleq([-1,1],[M_00003_00006,M_00003_00007],aux264)
+weightedsumgeq([-1,1],[M_00003_00006,M_00003_00007],aux264)
+weightedsumleq([-1,1],[M_00003_00008,M_00003_00009],aux265)
+weightedsumgeq([-1,1],[M_00003_00008,M_00003_00009],aux265)
+sumleq([M_00003_00004,-6],aux266)
+sumgeq([M_00003_00004,-6],aux266)
+weightedsumleq([-1,1],[M_00003_00008,M_00003_00011],aux267)
+weightedsumgeq([-1,1],[M_00003_00008,M_00003_00011],aux267)
+weightedsumleq([-1,1],[M_00004_00002,M_00004_00005],aux268)
+weightedsumgeq([-1,1],[M_00004_00002,M_00004_00005],aux268)
+weightedsumleq([-1,1],[M_00004_00005,M_00004_00006],aux269)
+weightedsumgeq([-1,1],[M_00004_00005,M_00004_00006],aux269)
+weightedsumleq([-1,1],[M_00004_00003,M_00004_00006],aux270)
+weightedsumgeq([-1,1],[M_00004_00003,M_00004_00006],aux270)
+weightedsumleq([-1,1],[M_00004_00002,M_00004_00003],aux271)
+weightedsumgeq([-1,1],[M_00004_00002,M_00004_00003],aux271)
+weightedsumleq([-1,1],[M_00004_00001,M_00004_00002],aux272)
+weightedsumgeq([-1,1],[M_00004_00001,M_00004_00002],aux272)
+weightedsumleq([-1,1],[M_00004_00004,M_00004_00007],aux273)
+weightedsumgeq([-1,1],[M_00004_00004,M_00004_00007],aux273)
+weightedsumleq([-1,1],[M_00004_00005,M_00004_00008],aux274)
+weightedsumgeq([-1,1],[M_00004_00005,M_00004_00008],aux274)
+weightedsumleq([-1,1],[M_00004_00011,-1],aux275)
+weightedsumgeq([-1,1],[M_00004_00011,-1],aux275)
+weightedsumleq([-1,1],[M_00004_00009,M_00004_00010],aux276)
+weightedsumgeq([-1,1],[M_00004_00009,M_00004_00010],aux276)
+weightedsumleq([-1,1],[M_00004_00010,M_00004_00011],aux277)
+weightedsumgeq([-1,1],[M_00004_00010,M_00004_00011],aux277)
+weightedsumleq([-1,1],[M_00004_00008,M_00004_00009],aux278)
+weightedsumgeq([-1,1],[M_00004_00008,M_00004_00009],aux278)
+weightedsumleq([-1,1],[M_00004_00008,M_00004_00011],aux279)
+weightedsumgeq([-1,1],[M_00004_00008,M_00004_00011],aux279)
+weightedsumleq([-1,1],[M_00004_00007,M_00004_00008],aux280)
+weightedsumgeq([-1,1],[M_00004_00007,M_00004_00008],aux280)
+weightedsumleq([-1,1],[M_00004_00007,M_00004_00010],aux281)
+weightedsumgeq([-1,1],[M_00004_00007,M_00004_00010],aux281)
+weightedsumleq([-1,1],[M_00004_00001,M_00004_00004],aux282)
+weightedsumgeq([-1,1],[M_00004_00001,M_00004_00004],aux282)
+weightedsumleq([-1,1],[M_00004_00003,M_00004_00004],aux283)
+weightedsumgeq([-1,1],[M_00004_00003,M_00004_00004],aux283)
+weightedsumleq([-1,1],[M_00004_00004,M_00004_00005],aux284)
+weightedsumgeq([-1,1],[M_00004_00004,M_00004_00005],aux284)
+weightedsumleq([-1,1],[M_00004_00006,M_00004_00007],aux285)
+weightedsumgeq([-1,1],[M_00004_00006,M_00004_00007],aux285)
+weightedsumleq([-1,1],[M_00004_00006,M_00004_00009],aux286)
+weightedsumgeq([-1,1],[M_00004_00006,M_00004_00009],aux286)
+weightedsumleq([-1,1],[M_00005_00003,M_00005_00004],aux287)
+weightedsumgeq([-1,1],[M_00005_00003,M_00005_00004],aux287)
+weightedsumleq([-1,1],[M_00005_00005,M_00005_00006],aux288)
+weightedsumgeq([-1,1],[M_00005_00005,M_00005_00006],aux288)
+weightedsumleq([-1,1],[M_00005_00005,M_00005_00008],aux289)
+weightedsumgeq([-1,1],[M_00005_00005,M_00005_00008],aux289)
+weightedsumleq([-1,1],[M_00005_00001,M_00005_00004],aux290)
+weightedsumgeq([-1,1],[M_00005_00001,M_00005_00004],aux290)
+weightedsumleq([-1,1],[M_00005_00004,M_00005_00005],aux291)
+weightedsumgeq([-1,1],[M_00005_00004,M_00005_00005],aux291)
+weightedsumleq([-1,1],[M_00005_00002,M_00005_00005],aux292)
+weightedsumgeq([-1,1],[M_00005_00002,M_00005_00005],aux292)
+weightedsumleq([-1,1],[M_00005_00001,M_00005_00002],aux293)
+weightedsumgeq([-1,1],[M_00005_00001,M_00005_00002],aux293)
+weightedsumleq([-1,1],[M_00005_00003,M_00005_00006],aux294)
+weightedsumgeq([-1,1],[M_00005_00003,M_00005_00006],aux294)
+weightedsumleq([-1,1],[M_00005_00004,M_00005_00007],aux295)
+weightedsumgeq([-1,1],[M_00005_00004,M_00005_00007],aux295)
+weightedsumleq([1,-1],[-1,M_00005_00010],aux296)
+weightedsumgeq([1,-1],[-1,M_00005_00010],aux296)
+weightedsumleq([-1,1],[M_00005_00007,M_00005_00008],aux297)
+weightedsumgeq([-1,1],[M_00005_00007,M_00005_00008],aux297)
+weightedsumleq([-1,1],[M_00005_00008,M_00005_00009],aux298)
+weightedsumgeq([-1,1],[M_00005_00008,M_00005_00009],aux298)
+weightedsumleq([-1,1],[M_00005_00007,M_00005_00010],aux299)
+weightedsumgeq([-1,1],[M_00005_00007,M_00005_00010],aux299)
+weightedsumleq([-1,1],[M_00005_00009,M_00005_00010],aux300)
+weightedsumgeq([-1,1],[M_00005_00009,M_00005_00010],aux300)
+weightedsumleq([-1,1],[M_00005_00006,M_00005_00007],aux301)
+weightedsumgeq([-1,1],[M_00005_00006,M_00005_00007],aux301)
+weightedsumleq([-1,1],[M_00005_00006,M_00005_00009],aux302)
+weightedsumgeq([-1,1],[M_00005_00006,M_00005_00009],aux302)
+weightedsumleq([-1,1],[M_00005_00002,M_00005_00003],aux303)
+weightedsumgeq([-1,1],[M_00005_00002,M_00005_00003],aux303)
+weightedsumleq([-1,1],[M_00006_00002,M_00006_00003],aux304)
+weightedsumgeq([-1,1],[M_00006_00002,M_00006_00003],aux304)
+weightedsumleq([-1,1],[M_00006_00003,M_00006_00006],aux305)
+weightedsumgeq([-1,1],[M_00006_00003,M_00006_00006],aux305)
+weightedsumleq([-1,1],[M_00006_00001,M_00006_00004],aux306)
+weightedsumgeq([-1,1],[M_00006_00001,M_00006_00004],aux306)
+weightedsumleq([1,-1],[-1,M_00006_00009],aux307)
+weightedsumgeq([1,-1],[-1,M_00006_00009],aux307)
+weightedsumleq([-1,1],[M_00006_00006,M_00006_00007],aux308)
+weightedsumgeq([-1,1],[M_00006_00006,M_00006_00007],aux308)
+weightedsumleq([-1,1],[M_00006_00007,M_00006_00008],aux309)
+weightedsumgeq([-1,1],[M_00006_00007,M_00006_00008],aux309)
+weightedsumleq([-1,1],[M_00006_00006,M_00006_00009],aux310)
+weightedsumgeq([-1,1],[M_00006_00006,M_00006_00009],aux310)
+weightedsumleq([-1,1],[M_00006_00008,M_00006_00009],aux311)
+weightedsumgeq([-1,1],[M_00006_00008,M_00006_00009],aux311)
+weightedsumleq([-1,1],[M_00006_00005,M_00006_00006],aux312)
+weightedsumgeq([-1,1],[M_00006_00005,M_00006_00006],aux312)
+weightedsumleq([-1,1],[M_00006_00005,M_00006_00008],aux313)
+weightedsumgeq([-1,1],[M_00006_00005,M_00006_00008],aux313)
+weightedsumleq([-1,1],[M_00006_00004,M_00006_00005],aux314)
+weightedsumgeq([-1,1],[M_00006_00004,M_00006_00005],aux314)
+weightedsumleq([-1,1],[M_00006_00004,M_00006_00007],aux315)
+weightedsumgeq([-1,1],[M_00006_00004,M_00006_00007],aux315)
+weightedsumleq([-1,1],[M_00006_00001,M_00006_00002],aux316)
+weightedsumgeq([-1,1],[M_00006_00001,M_00006_00002],aux316)
+weightedsumleq([-1,1],[M_00006_00003,M_00006_00004],aux317)
+weightedsumgeq([-1,1],[M_00006_00003,M_00006_00004],aux317)
+weightedsumleq([-1,1],[M_00006_00002,M_00006_00005],aux318)
+weightedsumgeq([-1,1],[M_00006_00002,M_00006_00005],aux318)
+weightedsumleq([-1,1],[M_00007_00007,M_00007_00008],aux319)
+weightedsumgeq([-1,1],[M_00007_00007,M_00007_00008],aux319)
+weightedsumleq([-1,1],[M_00007_00005,M_00007_00008],aux320)
+weightedsumgeq([-1,1],[M_00007_00005,M_00007_00008],aux320)
+weightedsumleq([-1,1],[M_00007_00008,-1],aux321)
+weightedsumgeq([-1,1],[M_00007_00008,-1],aux321)
+weightedsumleq([-1,1],[M_00007_00001,M_00007_00004],aux322)
+weightedsumgeq([-1,1],[M_00007_00001,M_00007_00004],aux322)
+weightedsumleq([-1,1],[M_00007_00003,M_00007_00004],aux323)
+weightedsumgeq([-1,1],[M_00007_00003,M_00007_00004],aux323)
+weightedsumleq([-1,1],[M_00007_00002,M_00007_00003],aux324)
+weightedsumgeq([-1,1],[M_00007_00002,M_00007_00003],aux324)
+weightedsumleq([-1,1],[M_00007_00004,M_00007_00005],aux325)
+weightedsumgeq([-1,1],[M_00007_00004,M_00007_00005],aux325)
+weightedsumleq([-1,1],[M_00007_00005,M_00007_00006],aux326)
+weightedsumgeq([-1,1],[M_00007_00005,M_00007_00006],aux326)
+weightedsumleq([-1,1],[M_00007_00003,M_00007_00006],aux327)
+weightedsumgeq([-1,1],[M_00007_00003,M_00007_00006],aux327)
+weightedsumleq([-1,1],[M_00007_00001,M_00007_00002],aux328)
+weightedsumgeq([-1,1],[M_00007_00001,M_00007_00002],aux328)
+weightedsumleq([-1,1],[M_00007_00002,M_00007_00005],aux329)
+weightedsumgeq([-1,1],[M_00007_00002,M_00007_00005],aux329)
+weightedsumleq([-1,1],[M_00007_00006,M_00007_00007],aux330)
+weightedsumgeq([-1,1],[M_00007_00006,M_00007_00007],aux330)
+weightedsumleq([-1,1],[M_00007_00004,M_00007_00007],aux331)
+weightedsumgeq([-1,1],[M_00007_00004,M_00007_00007],aux331)
+weightedsumleq([-1,1],[M_00008_00007,-1],aux332)
+weightedsumgeq([-1,1],[M_00008_00007,-1],aux332)
+weightedsumleq([-1,1],[M_00008_00002,M_00008_00003],aux333)
+weightedsumgeq([-1,1],[M_00008_00002,M_00008_00003],aux333)
+weightedsumleq([-1,1],[M_00008_00003,M_00008_00004],aux334)
+weightedsumgeq([-1,1],[M_00008_00003,M_00008_00004],aux334)
+weightedsumleq([-1,1],[M_00008_00004,M_00008_00005],aux335)
+weightedsumgeq([-1,1],[M_00008_00004,M_00008_00005],aux335)
+weightedsumleq([-1,1],[M_00008_00001,M_00008_00002],aux336)
+weightedsumgeq([-1,1],[M_00008_00001,M_00008_00002],aux336)
+weightedsumleq([-1,1],[M_00008_00005,M_00008_00006],aux337)
+weightedsumgeq([-1,1],[M_00008_00005,M_00008_00006],aux337)
+weightedsumleq([-1,1],[M_00008_00006,M_00008_00007],aux338)
+weightedsumgeq([-1,1],[M_00008_00006,M_00008_00007],aux338)
+weightedsumleq([-1,1],[M_00008_00002,M_00008_00005],aux339)
+weightedsumgeq([-1,1],[M_00008_00002,M_00008_00005],aux339)
+weightedsumleq([-1,1],[M_00008_00003,M_00008_00006],aux340)
+weightedsumgeq([-1,1],[M_00008_00003,M_00008_00006],aux340)
+weightedsumleq([-1,1],[M_00008_00004,M_00008_00007],aux341)
+weightedsumgeq([-1,1],[M_00008_00004,M_00008_00007],aux341)
+weightedsumleq([-1,1],[M_00008_00001,M_00008_00004],aux342)
+weightedsumgeq([-1,1],[M_00008_00001,M_00008_00004],aux342)
+weightedsumleq([-1,1],[M_00009_00004,M_00009_00005],aux343)
+weightedsumgeq([-1,1],[M_00009_00004,M_00009_00005],aux343)
+weightedsumleq([-1,1],[M_00009_00001,M_00009_00004],aux344)
+weightedsumgeq([-1,1],[M_00009_00001,M_00009_00004],aux344)
+weightedsumleq([-1,1],[M_00009_00005,M_00009_00006],aux345)
+weightedsumgeq([-1,1],[M_00009_00005,M_00009_00006],aux345)
+weightedsumleq([-1,1],[M_00009_00002,M_00009_00005],aux346)
+weightedsumgeq([-1,1],[M_00009_00002,M_00009_00005],aux346)
+weightedsumleq([-1,1],[M_00009_00003,M_00009_00006],aux347)
+weightedsumgeq([-1,1],[M_00009_00003,M_00009_00006],aux347)
+weightedsumleq([-1,1],[M_00009_00001,M_00009_00002],aux348)
+weightedsumgeq([-1,1],[M_00009_00001,M_00009_00002],aux348)
+weightedsumleq([1,-1],[-1,M_00009_00006],aux349)
+weightedsumgeq([1,-1],[-1,M_00009_00006],aux349)
+weightedsumleq([-1,1],[M_00009_00002,M_00009_00003],aux350)
+weightedsumgeq([-1,1],[M_00009_00002,M_00009_00003],aux350)
+weightedsumleq([-1,1],[M_00009_00003,M_00009_00004],aux351)
+weightedsumgeq([-1,1],[M_00009_00003,M_00009_00004],aux351)
+weightedsumleq([-1,1],[M_00010_00003,M_00010_00004],aux352)
+weightedsumgeq([-1,1],[M_00010_00003,M_00010_00004],aux352)
+weightedsumleq([-1,1],[M_00010_00004,M_00010_00005],aux353)
+weightedsumgeq([-1,1],[M_00010_00004,M_00010_00005],aux353)
+weightedsumleq([-1,1],[M_00010_00002,M_00010_00003],aux354)
+weightedsumgeq([-1,1],[M_00010_00002,M_00010_00003],aux354)
+weightedsumleq([-1,1],[M_00010_00002,M_00010_00005],aux355)
+weightedsumgeq([-1,1],[M_00010_00002,M_00010_00005],aux355)
+weightedsumleq([-1,1],[M_00010_00001,M_00010_00002],aux356)
+weightedsumgeq([-1,1],[M_00010_00001,M_00010_00002],aux356)
+weightedsumleq([-1,1],[M_00010_00001,M_00010_00004],aux357)
+weightedsumgeq([-1,1],[M_00010_00001,M_00010_00004],aux357)
+weightedsumleq([-1,1],[M_00010_00005,-1],aux358)
+weightedsumgeq([-1,1],[M_00010_00005,-1],aux358)
+weightedsumleq([-1,1],[M_00011_00002,M_00011_00003],aux359)
+weightedsumgeq([-1,1],[M_00011_00002,M_00011_00003],aux359)
+weightedsumleq([-1,1],[M_00011_00003,M_00011_00004],aux360)
+weightedsumgeq([-1,1],[M_00011_00003,M_00011_00004],aux360)
+weightedsumleq([-1,1],[M_00011_00004,-1],aux361)
+weightedsumgeq([-1,1],[M_00011_00004,-1],aux361)
+weightedsumleq([-1,1],[M_00011_00001,M_00011_00002],aux362)
+weightedsumgeq([-1,1],[M_00011_00001,M_00011_00002],aux362)
+weightedsumleq([-1,1],[M_00011_00001,M_00011_00004],aux363)
+weightedsumgeq([-1,1],[M_00011_00001,M_00011_00004],aux363)
+weightedsumleq([-1,1],[M_00012_00001,M_00012_00002],aux364)
+weightedsumgeq([-1,1],[M_00012_00001,M_00012_00002],aux364)
+weightedsumleq([-1,1],[M_00012_00002,M_00012_00003],aux365)
+weightedsumgeq([-1,1],[M_00012_00002,M_00012_00003],aux365)
+weightedsumleq([-1,1],[M_00012_00003,-1],aux366)
+weightedsumgeq([-1,1],[M_00012_00003,-1],aux366)
+weightedsumleq([1,-1],[-1,M_00013_00002],aux367)
+weightedsumgeq([1,-1],[-1,M_00013_00002],aux367)
+weightedsumleq([-1,1],[M_00013_00001,M_00013_00002],aux368)
+weightedsumgeq([-1,1],[M_00013_00001,M_00013_00002],aux368)
+**EOF**

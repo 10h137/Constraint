@@ -45,12 +45,12 @@ def getArr(file):
 def plotSolution(sol, satisfied, field):
     if(satisfied == sol["satisfied"]) :
         plt.plot(sol["size"], sol[field], "o")
-        plt.title(field)
-        plt.ylabel("seconds")
+        plt.title(field + " - Solved = " + str(satisfied) )
+        plt.ylabel(field)
         plt.xlabel("Number of Cards")
     # plt.legend(numpoints=1)
 
-def main():
+def main(key):
     files = getInfoFiles(sys.argv[1])
     info_files = []
     for file in files:
@@ -58,11 +58,13 @@ def main():
     print(info_files)
     info_files.sort(key = lambda x: x["size"])
     for f in info_files:
-        plotSolution(f, False, "savile_time")
+        if(key in f):
+            plotSolution(f, False, key)
     plt.show()
     plt.figure()
     for f in info_files:
-        plotSolution(f, True, "savile_time")
+        if(key in f):
+            plotSolution(f, True, key)
     plt.show()
 
 
@@ -70,4 +72,4 @@ def main():
 
 
 
-main()
+main(sys.argv[2])

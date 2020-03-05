@@ -9,9 +9,9 @@ from random import randint
 seed(1)
 seeds = []
 
-for i in range(0, 21):
+for i in range(0, 11):
     seeds.append(randint(0,10000000))
 
-for i in range(11,16):
+for i in range(16,26):
     for j in seeds:
         os.system("java LBSGen " + str(i) + " " + str(j) + " > " + str(j) + "_" + str(i) + ".param")

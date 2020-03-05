@@ -56,12 +56,13 @@ def main():
     for file in files:
         info_files.append(getArr(file))
     print(info_files)
+    info_files.sort(key = lambda x: x["size"])
     for f in info_files:
-        plotSolution(f, False, "solver_time")
+        plotSolution(f, False, "savile_time")
     plt.show()
     plt.figure()
     for f in info_files:
-        plotSolution(f, True, "solver_time")
+        plotSolution(f, True, "savile_time")
     plt.show()
 
 

@@ -14,8 +14,11 @@ for (dirpath, dirnames, filenames) in walk(os.path.abspath(sys.argv[1])):
 #     os.remove(os.path.join(sys.argv[1], f))
 
 param_files = list(filter((lambda x: re.search(r'(_|[A-z0-9])*\.param$', x)),files))
+param_files.sort(key = lambda x: int(x.split("_",1)[1].split(".",1)[0]))
+
 for i in param_files:
-    os.system("./" + sys.argv[2] + " " +  "prac.eprime " + os.path.abspath(sys.argv[1]) + "/" +  i + " -run-solver -timelimit 600000")
+    if(i + ".info" not in files) :
+        os.system("./" + sys.argv[2] + " " +  "prac.eprime " + os.path.abspath(sys.argv[1]) + "/" +  i + " -run-solver -timelimit 600000")
 
 
 solution_files = []
